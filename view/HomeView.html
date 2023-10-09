@@ -1,0 +1,74 @@
+{{> header}}
+{{> navbar}}
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="../public/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,900">
+    <title>GauchoRocket</title>
+</head>
+
+<body id="body_index">
+    <div id="header" class="row">
+        <div id="titulo_header" class="col-7">
+            <h1>Al infinito y mas alla</h1>
+            <h4>Vivi una nueva experiencia</h4>
+        </div>
+        <div class="col d-none d-lg-block col-md-4 col-lg-4 col-XL-5">
+            <img src="../public/planeta.jpg" >
+        </div>
+
+    </div>
+</div>
+</div>
+<div id="fotos">
+    <div class="container">
+        <div class="row">
+            <div class="col"><h3>Nuestros vuelos</h3></div>
+        </div>
+    </div>
+</div>
+<form action="/home/buscarVuelos" method="post">
+    <input name="nombre" type="text" placeholder="Nombre de vuelo">
+    <button type="submit">Buscar</button>
+    <p>El que ta cargado es Juanito, no olvidarse</p>
+</form>
+<hr>
+{{#vuelosBuscados}}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="tarjetas">
+                <h4>{{circuito}}</h4>
+                <img src="{{imagen}}">
+                <p>{{equipo}}</p>
+                <p>{{horaPartida}}</p>
+                <p>{{partida}}</p>
+                <p>{{dia}}</p>
+                <a href="/Vuelos/execute" >Reservar</a>
+            </div>
+        </div>
+    </div>
+</div>
+{{/vuelosBuscados}}
+<hr>
+{{#vuelos}}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="tarjetas">
+                <h4>{{NombreEquipo}}</h4>
+                <img src="{{imagen}}">
+                <p>{{duracion}}</p>
+                <p>{{costo}}</p>
+                <p>{{espacios disponibles}}</p>
+                <p>{{nivel}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{{/vuelos}}
+{{> footer}}
+</body>
+</html>
