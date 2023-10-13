@@ -28,6 +28,10 @@ class UserController {
         $this->renderer->render("register",$data);
     }
 
+    public function renderJuego() {
+        $this->renderer->render("juego");
+    }
+
     public function Login() {
         $usuario= isset($_POST["usuario"]) ? $_POST["usuario"] : "";
         $contraseña= isset($_POST["contraseña"]) ? $_POST["contraseña"] : "";

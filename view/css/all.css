@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    min-height: 100%;
 }
 
 * {
@@ -9,9 +9,14 @@ html {
 }
 
 body {
-    height: 100%;
+    min-height: 100%;
     background-image: linear-gradient(#f1916d, #f5d7db, #bd83b8, #473e66, #1b3358, #06142e);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #06142e;
 }
 
 main {
