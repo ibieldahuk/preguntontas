@@ -29,7 +29,8 @@ class UserController {
     }
 
     public function renderJuego() {
-        $this->renderer->render("juego");
+        $data = $this->userModel->getPreguntaYOpciones();
+        $this->renderer->render("juego", $data);
     }
 
     public function Login() {

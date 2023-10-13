@@ -31,4 +31,10 @@ class UserModel {
             return true;
         }
     }
+
+    public function getPreguntaYOpciones() {
+        return array(
+            "pregunta" => "¿En qué año ocurrió la Revolución de Mayo?",
+            "opciones" => array("1816", "1810", "1917", "2003"));
+    }
 }
