@@ -1,0 +1,54 @@
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario like ''
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario like 'admin'
+[2023-10-04][INFO]Ejecutando query: INSERT INTO `usuario`( `usuario`, `contraseña`) 
+                VALUES ( 'admin', 'admin' )
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario like 'admin'
+[2023-10-04][INFO]Ejecutando query: INSERT INTO `usuario`( `usuario`, `contraseña`) 
+                VALUES ( 'admin', 'admin' )
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario like 'admin'
+[2023-10-04][INFO]Ejecutando query: INSERT INTO `usuario`( `usuario`, `contraseña`) 
+                VALUES ( 'admin', 'admin' )
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario like 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario like 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: INSERT INTO `usuario`( `usuario`, `contraseña`) 
+                VALUES ( 'admin', 'admin' )
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: INSERT INTO `usuario`( `usuario`, `contraseña`) 
+                VALUES ( 'admin', 'admin' )
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'Admin'
+[2023-10-04][INFO]Ejecutando query: INSERT INTO `usuario`( `usuario`, `contraseña`)
+                VALUES ( 'Admin', 'admin' )
+[2023-10-04][INFO]Ejecutando query: INSERT INTO `usuario`( `usuario`, `contraseña`)
+                VALUES ( 'Admin', 'admin' )
+[2023-10-04][INFO]Ejecutando query: INSERT INTO `usuario`( `usuario`, `contraseña`)
+                VALUES ( 'Admin', 'admin' )
+[2023-10-04][INFO]Ejecutando query: INSERT INTO `usuario`( `usuario`, `contraseña`)
+                VALUES ( 'Admin', 'admin' )
+[2023-10-04][INFO]Ejecutando query: INSERT INTO `usuario`( `usuario`, `contraseña`)
+                VALUES ( 'Admin', 'admin' )
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario like ''
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-04][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'

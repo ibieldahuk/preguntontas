@@ -1,0 +1,22 @@
+
+<div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px' id='band'>
+    <h2 class='w3-wide'>Preguntontas</h2>
+    <table class='w3-table'>
+    <h1>Login</h1>
+        <form action="/userController/Login" method="post">
+            <div>
+                <label>Username</label>
+                <input type="text" placeholder="Ingresa usuario" name="usuario" required>
+
+                <label>Contraseña</label>
+                <input type="password" placeholder="Ingresa Contraseña" name="contraseña" required>
+
+                <button type="submit">Iniciar sesion</button>
+                <a href="/userController/renderRegister">Registrate</a>
+    {{#error}}
+        <div class="w3-red">usuario invalido pa</div>
+    {{/error}}
+            </div>
+        </form>
+    </table>
+</div>

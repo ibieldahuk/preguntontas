@@ -1,0 +1,21 @@
+
+<div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px' id='band'>
+    <h2 class='w3-wide'>Preguntontas</h2>
+    <table class='w3-table'>
+    <h1>REGISTER</h1>
+        <form action="/user/register" method="post">
+            <div>
+                <label>Username</label>
+                <input type="text" placeholder="Ingresa usuario" name="usuario" required>
+
+                <label>Contraseña</label>
+                <input type="password" placeholder="Ingresa Contraseña" name="contraseña" required>
+
+                <button type="submit">Registrar</button>
+                {{#error}}
+                    <div class="">El usuario ya existe</div>
+                {{/error}}
+            </div>
+        </form>
+    </table>
+</div>

@@ -1,15 +1,13 @@
 <?php
-include_once ("helper/Configuration.php");
-session_start();
+include_once('Configuration.php');
 error_reporting(0);
 $configuration = new Configuration();
 $router = $configuration->getRouter();
 
-//http://www.labanda.com/songs/addSong
-//http://www.labanda.com/index.php?controller=songs&method=addSong
+$module = $_GET['module'] ?? 'user';
+$method = $_GET['action'] ?? 'home';
+
+$router->route($module, $method);
 
 
-$controller = isset($_GET["controller"])? $_GET['controller'] : "" ;
-$method = isset($_GET["method"])? $_GET['method'] : "";
 
-$router->executeMethodFromController($controller, $method);
