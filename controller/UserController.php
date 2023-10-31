@@ -10,7 +10,18 @@ class UserController {
     }
 
     public function home() {
-        $this->renderer->render("home");
+        if($_SESSION["usuario"]=="admin"){
+            $datos["admin"]=TRUE;
+            $this->renderer->render("home",$datos);
+        }else if ($_SESSION["usuario"]=="editor")
+        {
+            $datos["editor"]=TRUE;
+            $this->renderer->render("home",$datos);
+        }else{
+            $datos["usuario"]= $this->userModel->datosUsuario();
+            $this->renderer->render("home",$datos);
+        }
+
     }
 
     public function RenderLogin() {
@@ -28,16 +39,12 @@ class UserController {
         $this->renderer->render("register",$data);
     }
 
-    public function renderJuego() {
-        $data = $this->userModel->getPreguntaYOpciones();
-        $this->renderer->render("juego", $data);
-    }
-
     public function Login() {
         $usuario= isset($_POST["usuario"]) ? $_POST["usuario"] : "";
         $contraseña= isset($_POST["contraseña"]) ? $_POST["contraseña"] : "";
         
         if($this->userModel->login($usuario,$contraseña)){
+            $_SESSION["usuario"]=$usuario;
             header("location:home");
             exit();
         } else {
@@ -58,4 +65,16 @@ class UserController {
             exit();
         }
 }
+
+    public function cerrarSesion(){
+        session_destroy();
+        header("location:RenderLogin");
+        exit();
+    }
+
+    public function perfil(){
+        $usuario=$_GET["usuario"];
+        $data["perfil"]=$this->userModel->perfil($usuario);
+        $this->renderer->render("perfil",$data);
+    }
 }

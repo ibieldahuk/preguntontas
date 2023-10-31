@@ -1,0 +1,791 @@
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: INSERT INTO `Usuario`( `usuario`, `contraseña`) 
+            VALUES ( 'matias', '1234' )
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas 
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 38
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 38
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=2
+                where id = 38
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=2
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=1
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 25
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select correctas
+                from Preguntas
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set correctas=2
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=1
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Select qtyCorrectas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyCorrectas=1
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=1
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 18
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 18
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=2
+                where id = 18
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=2
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 18
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select correctas
+                from Preguntas
+                where id = 18
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set correctas=2
+                where id = 18
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 18
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=1
+                where id = 18
+[2023-10-26][INFO]Ejecutando query: Select qtyCorrectas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyCorrectas=2
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=1
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=2
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=3
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 39
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select correctas
+                from Preguntas
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set correctas=2
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=1
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Select qtyCorrectas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyCorrectas=3
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=1
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=2
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=4
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 12
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET record = 3 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 3 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.5
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.75
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=3
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=5
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 39
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 3 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.66666666666667
+                where id = 39
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.6
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=2
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=6
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 3
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 3 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.5
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.5
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=2
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=7
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 33
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 3 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.5
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.42857142857143
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=3
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=8
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 25
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 3 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.66666666666667
+                where id = 25
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.375
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 28
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 28
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=2
+                where id = 28
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=9
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 28
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select correctas
+                from Preguntas
+                where id = 28
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set correctas=2
+                where id = 28
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 28
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=1
+                where id = 28
+[2023-10-26][INFO]Ejecutando query: Select qtyCorrectas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyCorrectas=4
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.44444444444444
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 4
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 4
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=2
+                where id = 4
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=10
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 4
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select correctas
+                from Preguntas
+                where id = 4
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set correctas=2
+                where id = 4
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 4
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=1
+                where id = 4
+[2023-10-26][INFO]Ejecutando query: Select qtyCorrectas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyCorrectas=5
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.5
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=3
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=11
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 12
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select correctas
+                from Preguntas
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set correctas=2
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.66666666666667
+                where id = 12
+[2023-10-26][INFO]Ejecutando query: Select qtyCorrectas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyCorrectas=6
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.54545454545455
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=3
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=12
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 33
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 6 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.33333333333333
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.5
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=3
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=13
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 3
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 6 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.33333333333333
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.46153846153846
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=4
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=14
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 3
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 6 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.25
+                where id = 3
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.42857142857143
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set qty=4
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=15
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 33
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 6 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.25
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.4
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 6 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.25
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.4
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 6 where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.25
+                where id = 33
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.4
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'matias'
+[2023-10-26][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-10-26][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 

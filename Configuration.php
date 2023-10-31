@@ -5,8 +5,10 @@ include_once('helpers/Router.php');
 include_once('helpers/Logger.php');
 
 include_once("model/UserModel.php");
+include_once("model/JuegoModel.php");
 
 include_once('controller/UserController.php');
+include_once('controller/JuegoController.php');
 
 include_once('third-party/mustache/src/Mustache/Autoloader.php');
 
@@ -20,6 +22,12 @@ class Configuration {
     public function getUserController() {
         return new UserController(
             new UserModel($this->getDatabase()),
+            $this->getRenderer());
+    }
+
+    public function getJuegoController() {
+        return new JuegoController(
+            new JuegoModel($this->getDatabase()),
             $this->getRenderer());
     }
 

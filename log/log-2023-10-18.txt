@@ -1,0 +1,1242 @@
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 29
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 29
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 2
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 2
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 10
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 10
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 13
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 13
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 25
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 25
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 1
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 1
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 12
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 12
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 2
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 2
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 6
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 6
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 14
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 14
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 25
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 25
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 3
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 3
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 3
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 3
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 0
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 0
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 10
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 10
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 13
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 13
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 24
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 24
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 11
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 11
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 20
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 20
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 6
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 6
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 17
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 17
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 14
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 14
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 10
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 10
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 12
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 12
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 15
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 15
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 9
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 9
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 20
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 20
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 23
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 23
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 9
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 9
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 11
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 11
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 5
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 5
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 15
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 15
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 18
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 18
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 4
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 4
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 27
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 27
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 10
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 10
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 15
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 15
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 11
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 11
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 11
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 11
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 9
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 9
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 12
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 12
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 27
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 27
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 9
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 9
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 5
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 5
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 27
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 27
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 1
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 1
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 29
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 29
+[2023-10-18][INFO]Ejecutando query: INSERT INTO USUARIO (record) VALUES ('' where usuario = admin) 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 26
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 26
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 16
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 16
+[2023-10-18][INFO]Ejecutando query: INSERT INTO USUARIO (record) VALUES ('') where usuario = admin 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 6
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 6
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 0
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 0
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 18
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 18
+[2023-10-18][INFO]Ejecutando query: INSERT INTO USUARIO (record) VALUES () where usuario = admin 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 1
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 1
+[2023-10-18][INFO]Ejecutando query: INSERT INTO USUARIO (record) VALUES () where usuario = admin 
+[2023-10-18][INFO]Ejecutando query: INSERT INTO USUARIO (record) VALUES (2) where usuario = admin 
+[2023-10-18][INFO]Ejecutando query: INSERT INTO USUARIO (record) VALUES (2) where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: INSERT INTO USUARIO (record) VALUES (2) where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 0
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 0
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 15
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 15
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 20
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 20
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 22
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 22
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 8
+[2023-10-18][INFO]Ejecutando query: INSERT INTO USUARIO (record) VALUES (3) where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 14
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 14
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 8
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET record = 5 where usuario = admin 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 28
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 28
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 22
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 22
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 24
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 24
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET record = 8 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admind' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admind' AND contraseña = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 5
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 5
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 5
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 5
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 17
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 17
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 2
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 2
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 29
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 29
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 19
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 5 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 18
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 18
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 0 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 26
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 26
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 24
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 24
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 0 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 20
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 20
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 0 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 26
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 26
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 13
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 13
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 5
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 5
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 12
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 12
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 9
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 9
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 6 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 4
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 4
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 24
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 24
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 8 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 15
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 15
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 7
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 13
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 13
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 29
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 29
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 3 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 20
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 20
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 11
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 11
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 21
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 21
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 6 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 8
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 1
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 1
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 1 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 20
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 20
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 23
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 23
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 1 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 28
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 28
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 1 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 24
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 24
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 1 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 29
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 29
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 22
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 22
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 2 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 1
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 1
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 4 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 19
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 27
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 27
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 5 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 19
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 4
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 4
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 20
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 20
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 8
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 8
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 1
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 1
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 22
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 22
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 15
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 15
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 19
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 14 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 29
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 29
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET record = 10 where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'admin'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 24 where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: SELECT * RANK () OVER (ORDER BY record DESC) ranking FROM usuario
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: INSERT INTO `Usuario`( `usuario`, `contraseña`) 
+            VALUES ( 'matias', '1234' )
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 11
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 11
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 0 where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 0
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 0
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 17
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 17
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 0 where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 26
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 26
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 5
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 5
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-18][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 19
+[2023-10-18][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 19
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET record = 2 where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
+[2023-10-18][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 2 where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'editor' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'editor' 
+[2023-10-18][INFO]Ejecutando query: INSERT INTO `Usuario`( `usuario`, `contraseña`) 
+            VALUES ( 'editor', '1234' )
+[2023-10-18][INFO]Select * from Usuario where usuario = 'editor' AND contraseña = '1234'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'editor' AND contraseña = '1234'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'editor' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: INSERT INTO `Usuario`( `usuario`, `contraseña`) 
+            VALUES ( 'matias', '1234' )
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Select * from Usuario where usuario = 'matias' 
+[2023-10-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 

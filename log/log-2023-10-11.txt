@@ -1,0 +1,291 @@
+[2023-10-11][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-11][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-11][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-11][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = 'admin'
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas where pregunta = 'Array'
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas where pregunta = 'Array.[pregunta]'
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas where pregunta = 'Array.[pregunta]'
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas where pregunta = 'Array.['pregunta']'
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas where pregunta = '[61]'
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas where pregunta = '.[51]'
+[2023-10-11][INFO]Ejecutando query: Select p.pregunta, r.opcion
+                from Preguntas as p
+                inner join Respuestas r on r.ID_preguntas = p.ID
+                where p.id = 1
+[2023-10-11][INFO]Ejecutando query: Select p.pregunta, r.opcion
+                from Preguntas as p
+                inner join Respuestas r on r.ID_preguntas = p.ID
+                where p.id = 2
+[2023-10-11][INFO]Ejecutando query: Select p.pregunta, r.opcion
+                from Preguntas as p
+                inner join Respuestas r on r.ID_preguntas = p.ID
+                where p.id = 1
+[2023-10-11][INFO]Ejecutando query: Select p.pregunta, r.opcion
+                from Preguntas as p
+                inner join Respuestas r on r.ID_preguntas = p.ID
+                where p.id = 1
+[2023-10-11][INFO]Ejecutando query: Select p.pregunta as Pregunta, r.opcion as Opcion
+                from Preguntas as p
+                inner join Respuestas r on r.ID_preguntas = p.ID
+                where p.id = 1
+[2023-10-11][INFO]Ejecutando query: Select p.pregunta as Pregunta, r.opcion as Opcion
+                from Preguntas as p
+                inner join Respuestas r on r.ID_preguntas = p.ID
+                where p.id = 1
+[2023-10-11][INFO]Ejecutando query: Select p.pregunta as Pregunta, r.opcion as Opcion
+                from Preguntas as p
+                inner join Respuestas r on r.ID_preguntas = p.ID
+                where p.id = 1
+[2023-10-11][INFO]Ejecutando query: Select p.pregunta as Pregunta, r.opcion as Opcion
+                from Preguntas as p
+                inner join Respuestas r on r.ID_preguntas = p.ID
+                where p.id = 1
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 0
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 0
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 24
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 24
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 13
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 13
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 11
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 11
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 3
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 3
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 17
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 17
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 17
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 17
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 24
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 24
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 13
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 13
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 16
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 16
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 0
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 0
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 28
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 28
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 13
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 13
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 2
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 2
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 15
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 15
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 11
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 11
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 9
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 9
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 2
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 2
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 21
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 21
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 13
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 13
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 8
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 8
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 1
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 1
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 15
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 15
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 3
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 3
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 14
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 14
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 27
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 27
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 9
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 9
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 22
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 22
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 20
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 20
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 22
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 22
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 0
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 0
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 20
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 20
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 2
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 2
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 2
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 2
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 27
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 27
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 11
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 11
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 1
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 1
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 25
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 25
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 19
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 19
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 7
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 7
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 10
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 10
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 12
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 12
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 13
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 13
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 3
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 3
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 15
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 15
+[2023-10-11][INFO]Ejecutando query: Select * from Preguntas
+[2023-10-11][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 6
+[2023-10-11][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 6

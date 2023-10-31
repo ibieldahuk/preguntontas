@@ -2,6 +2,38 @@
 <div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px' id='band'>
     <h2 class='w3-wide'>Preguntontas</h2>
     <table class='w3-table'>
-    <h1>PRUEBA</h1>
+    <h1>Lobby</h1>
+        {{#usuario}}
+        <h2>Nombre del tipito: {{usuario}}</h2>
+        <h2>Puntaje maximo alcanzado:
+            {{record}}
+            pts</h2>
+        <h2><a href="/juego/partida">Nueva partida</a></h2>
+        <h2><a href="/juego/ranking">Ver Ranking</a></h2>
+        <h2>Sugerir una pregunta</h2>
+        {{/usuario}}
+        <hr>
+        {{#editor}}
+        <h1>Lobby EDITOR</h1>
+        <h2>Chequear las preguntas sugeridas por usuarios (alta, baja, modificacion)</h2>
+        <h2>Nueva pregunta</h2>
+        <h2>Borrar pregunta</h2>
+        <h2>Modificar pregunta</h2>
+        <h2>Chequear las preguntas reportadas por usuarios</h2>
+        <hr>
+        {{/editor}}
+        {{#admin}}
+        <h1>Lobby ADMIN</h1>
+        <h2>Crear los siguientes graficos con filtro de dia, semana, mes, año. Deben poder imprimirse</h2>
+        <h2>Qty de jugadores que tiene la app</h2>
+        <h2>Qty de partidas jugadas</h2>
+        <h2>Qty de preguntas en el juego</h2>
+        <h2>Qty de preguntas creadas</h2>
+        <h2>Qty de usuarios nuevos</h2>
+        <h2>Share de preguntas ok, por usuario</h2>
+        <h2>Qty de usuarios por pais</h2>
+        <h2>Qty de usuarios por sexo</h2>
+        <h2>Qty de usuarios por grupo etareo</h2>
+        {{/admin}}
     </table>
 </div>
