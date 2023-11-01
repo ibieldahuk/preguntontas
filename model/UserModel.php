@@ -15,15 +15,16 @@ class UserModel {
         return sizeof($result) == 1;
     }
 
-    public function register($usuario,$contraseña){
-        $sql = "Select * from Usuario where usuario = '$usuario' ";
+    public function register($nombre, $apellido, $fechaNac, $genero, $email, $usuario,$contraseña, $fotoPerfil){
+        $fotoGuardada = $this->guardarFoto($fotoPerfil);
+        $sql = "Select * from Usuario where usuario = '$usuario' AND email = '$email'";
         Logger::info($sql);
         $result=$this->database->query($sql);
            if(sizeof($result) == 1){
             return false;
            }else{
-            $sql = "INSERT INTO `Usuario`( `usuario`, `contraseña`) 
-            VALUES ( '" . $usuario . "', '" . $contraseña .  "' )";
+            $sql = "INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`) 
+            VALUES ( '" . $nombre . "', '" . $apellido . "', '" . $fechaNac . "', '" . $genero . "', '" . $email . "','" . $usuario . "', '" . $contraseña .  "', '" . $fotoGuardada . "' )";
             $this->database->execute($sql);
             return true;
         }
@@ -39,5 +40,12 @@ class UserModel {
     public function perfil($usuario){
         $sql = "Select * from Usuario where usuario = '$usuario' ";
         return $this->database->query($sql);
+    }
+
+    private function guardarFoto($fotoPerfil){
+        $fotoPerfil["name"] = "imagen_" . rand(1,200) . "." . pathinfo($fotoPerfil["name"], PATHINFO_EXTENSION);
+
+        move_uploaded_file($fotoPerfil["tmp_name"], "public/fotosPerfil/" . $fotoPerfil["name"]);
+        return "public/fotosPerfil/" . $fotoPerfil["name"];
     }
 }

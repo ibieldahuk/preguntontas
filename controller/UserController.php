@@ -54,10 +54,16 @@ class UserController {
     }
 
     public function Register() {
+        $nombre = isset($_POST["nombre"]) ? $_POST["nombre"] : "";
+        $apellido = isset($_POST["apellido"]) ? $_POST["apellido"] : "";
+        $fechaNac = isset($_POST["fechaNacimiento"]) ? $_POST["fechaNacimiento"] : "";
+        $genero = isset($_POST["sexo"]) ? $_POST["sexo"] : "";
+        $fotoPerfil = isset($_FILES["file"]) ? $_FILES["file"] : "";
+        $email = isset($_POST["email"]) ? $_POST["email"] : "";
         $usuario= isset($_POST["usuario"]) ? $_POST["usuario"] : "";
         $contraseña= isset($_POST["contraseña"]) ? $_POST["contraseña"] : "";
         
-        if($this->userModel->register($usuario,$contraseña)){
+        if($this->userModel->register($nombre, $apellido, $fechaNac, $genero, $email, $usuario,$contraseña, $fotoPerfil)){
             header("location:RenderLogin");
             exit();
         } else {
