@@ -3,19 +3,61 @@
     <h2 class='w3-wide'>Preguntontas</h2>
     <table class='w3-table'>
     <h1>REGISTER</h1>
-        <form action="/user/register" method="post">
-            <div>
-                <label>Username</label>
-                <input type="text" placeholder="Ingresa usuario" name="usuario" required>
+        <form action="/user/register" method="post" enctype="multipart/form-data">
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <div class="w3-margin">
+                        <input type="text" placeholder="Ingresa nombre" name="nombre" class="w3-input" required>
+                    </div>
 
-                <label>Contraseña</label>
-                <input type="password" placeholder="Ingresa Contraseña" name="contraseña" required>
+                    <div class="w3-margin">
+                        <label>Año de nacimiento</label>
+                        <input type="date" name="fechaNacimiento" class="w3-input" required>
+                    </div>
+                    <div class="w3-margin">
+                        <label for="">Seleccione su ubicacion</label>
+                        <div id="map"></div>
+                    </div>
+                    <div class="w3-margin">
+                        <input type="text" placeholder="Ingresa usuario" name="usuario" class="w3-input" required>
+                    </div>
 
-                <button type="submit">Registrar</button>
+                </div>
+
+                <div class="w3-half">
+                    <div class="w3-margin">
+                        <input type="text" placeholder="Ingresa apellido" name="apellido" class="w3-input" required>
+                    </div>
+                    <div class="w3-margin">
+                        <select name="sexo" id="sexo" class="w3-select">
+                            <option value="" disabled selected>Seleccione un Genero</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                            <option value="Otro">Prefiero no decirlo</option>
+                        </select>
+                    </div>
+                    <div class="w3-margin">
+                        <input type="email" placeholder="Ingresa Email" name="email" class="w3-input" required>
+                    </div>
+                    <div class="w3-margin">
+                        <input type="password" placeholder="Ingresa Contraseña" name="contraseña" class="w3-input" required>
+                    </div>
+                </div>
+                <div class="w3-container w3-center w3-margin-top">
+                    <label>Foto de perfil</label>
+                </div>
+                <input type="file" name="file" required>
+                <br>
+                <br>
+                <button class="w3-button w3-round-large w3-teal" type="submit">Registrar</button>
                 {{#error}}
-                    <div class="">El usuario ya existe</div>
+                    <div class="w3-red w3-padding-16 w3-margin" style="font-size: large">El usuario ya existe</div>
                 {{/error}}
             </div>
         </form>
     </table>
 </div>
+<script src="js/map.js"></script>
+<script async
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap">
+</script>

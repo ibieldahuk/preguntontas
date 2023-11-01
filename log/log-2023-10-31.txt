@@ -1,0 +1,2 @@
+[2023-10-31][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-10-31][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
