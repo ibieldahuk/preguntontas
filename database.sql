@@ -66,7 +66,6 @@ INSERT INTO preguntas (pregunta, categoria, qty, correctas, sharecorrecta) VALUE
     ("¿En que pais se invento el paddle?", "Deporte", 1, 1, 1),
     ("¿Qué altura tienen los trampolines olimpicos?", "Deporte", 1, 1, 1),
     ("¿Cuántas medallas de oro tuvo Argentina en Rio 2016?", "Deporte", 1, 1, 1),
-    ("", "Deporte", 1, 1, 1),
     ("¿Qué animal puede sobrevivir mas tiempo sin agua?", "Naturaleza", 1, 1, 1),
     ("¿Las hormigas tienen reinas, como las abejas?", "Naturaleza", 1, 1, 1),
     ("Los tibres blancos tienen ojos azules ¿De que color los tienen el resto?", "Naturaleza", 1, 1, 1),

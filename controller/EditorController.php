@@ -34,4 +34,17 @@ class EditorController
         }
     }
 
+    public function renderBorrarPregunta()
+    {
+        $datos["preguntas"] = $this->editorModel->obtenerPreguntas();
+        $this->renderer->render("borrar_pregunta", $datos);
+    }
+
+    public function borrarPregunta()
+    {
+        $idPregunta = $_GET["id"];
+        $this->editorModel->borrarPregunta($idPregunta);
+        header("location:renderBorrarPregunta");
+    }
+
 }
