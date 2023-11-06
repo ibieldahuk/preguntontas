@@ -1,5 +1,11 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
+require 'third-party/PHPMailer-master/src/Exception.php';
+require 'third-party/PHPMailer-master/src/PHPMailer.php';
+require 'third-party/PHPMailer-master/src/SMTP.php';
 class UserController {
     private $userModel;
     private $renderer;
@@ -64,6 +70,7 @@ class UserController {
         $contraseña= isset($_POST["contraseña"]) ? $_POST["contraseña"] : "";
         
         if($this->userModel->register($nombre, $apellido, $fechaNac, $genero, $email, $usuario,$contraseña, $fotoPerfil)){
+            $this->enviarMailConfirmacion($nombre, $email);
             header("location:RenderLogin");
             exit();
         } else {
@@ -82,5 +89,45 @@ class UserController {
         $usuario=$_GET["usuario"];
         $data["perfil"]=$this->userModel->perfil($usuario);
         $this->renderer->render("perfil",$data);
+    }
+
+    private function enviarMailConfirmacion($nombre, $correo){
+        $mail = new PHPMailer(true);
+        $mail->setLanguage('es', '/optional/path/to/language/directory/');
+
+        try {
+            $mail->SMTPOptions = array(
+                'ssl' => array(
+                    'verify_peer'=> false,
+                    'verify_peer_name' => false,
+                    'allow_self_signed' => true
+                )
+            );
+            //Server settings
+            $mail->SMTPDebug = 0;                      //Enable verbose debug output
+            $mail->isSMTP();                                            //Send using SMTP
+            $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+            $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+            $mail->Username   = 'preguntontasweb@gmail.com';                     //SMTP username
+            $mail->Password   = 'dkbo nymd jiuy inzc';                               //SMTP password
+            $mail->SMTPSecure = 'ssl';            //Enable implicit TLS encryption
+            $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+            //Recipients
+            $mail->setFrom('preguntontasweb@gmail.com', 'Preguntontas');
+            $mail->addAddress($correo, $nombre);     //Add a recipient
+
+            //Content
+            $mail->isHTML(true);                                  //Set email format to HTML
+            $mail->Subject = 'Registro exitoso';
+            $mail->Body    = '<h1>¡Hola '. $nombre . ' !</h1>
+                              <p>Gracias por registrarte en Preguntontas. Tu cuenta ha sido creada con éxito. 
+                                Ahora puedes iniciar sesión y empezar a jugar.</p>';
+
+            $mail->send();
+            echo 'Mensaje enviado con exito';
+        } catch (Exception $e) {
+            echo "Hubo un error: {$mail->ErrorInfo}";
+        }
     }
 }

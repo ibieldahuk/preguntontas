@@ -1,0 +1,8 @@
+[2023-11-06][INFO]Select * from Usuario where usuario = 'pepito' OR email = 'matiasagustinfer1003@gmail.com'
+[2023-11-06][INFO]Ejecutando query: Select * from Usuario where usuario = 'pepito' OR email = 'matiasagustinfer1003@gmail.com'
+[2023-11-06][INFO]Ejecutando query: INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`) 
+                VALUES ( 'Pepito', 'Perez', '1998-04-15', 'Masculino', 'matiasagustinfer1003@gmail.com','pepito', '1234', 'public/fotosPerfil/imagen_3.jpg' )
+[2023-11-06][INFO]Select * from Usuario where usuario = 'guada' OR email = 'guadapfernandez@gmail.com'
+[2023-11-06][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' OR email = 'guadapfernandez@gmail.com'
+[2023-11-06][INFO]Ejecutando query: INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`) 
+                VALUES ( 'Guadalupe', 'Fernandez', '2000-06-20', 'Femenino', 'guadapfernandez@gmail.com','guada', '1234', 'public/fotosPerfil/imagen_52.jpg' )
