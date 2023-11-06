@@ -93,7 +93,7 @@ class UserController {
 
     private function enviarMailConfirmacion($nombre, $correo){
         $mail = new PHPMailer(true);
-        $mail->setLanguage('es', '/optional/path/to/language/directory/');
+        $mail->setLanguage('es', 'third-party/PHPMailer-master/language/');
 
         try {
             $mail->SMTPOptions = array(
