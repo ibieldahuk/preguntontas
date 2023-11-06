@@ -1,0 +1,6 @@
+[2023-11-05][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-05][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-05][INFO]Select * from Usuario where usuario = 'guada' AND contraseña = '1324'
+[2023-11-05][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' AND contraseña = '1324'
+[2023-11-05][INFO]Select * from Usuario where usuario = 'guada' OR email = 'guadapfernandez@gmail.com'
+[2023-11-05][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' OR email = 'guadapfernandez@gmail.com'
