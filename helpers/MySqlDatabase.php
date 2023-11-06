@@ -28,6 +28,11 @@ class MySqlDatabase {
 
     public function execute($sql) {
         Logger::info('Ejecutando query: ' . $sql);
+        return mysqli_query($this->connection, $sql);
+    }
+
+    public function insertMasId($sql) {
         mysqli_query($this->connection, $sql);
+        return mysqli_insert_id($this->connection);
     }
 }
