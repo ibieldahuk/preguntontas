@@ -26,7 +26,7 @@ class EditorController
 
         if ($this->editorModel->altaPregunta($pregunta, $respuestaCorrecta, $respuestaIncorrecta1, $respuestaIncorrecta2, $respuestaIncorrecta3))
         {
-            header("location:renderCrearPregunta");
+            header("location:/user/home");
             exit();
         } else {
             header("location:renderCrearPregunta?error=INVALID");
@@ -44,7 +44,8 @@ class EditorController
     {
         $idPregunta = $_GET["id"];
         $this->editorModel->borrarPregunta($idPregunta);
-        header("location:renderBorrarPregunta");
+        header("location:/user/home");
+        exit();
     }
 
 }
