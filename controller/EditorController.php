@@ -34,17 +34,33 @@ class EditorController
         }
     }
 
-    public function renderBorrarPregunta()
+    public function renderGestionarPreguntas()
     {
         $datos["preguntas"] = $this->editorModel->obtenerPreguntas();
-        $this->renderer->render("borrar_pregunta", $datos);
+        $this->renderer->render("gestor_preguntas", $datos);
     }
 
     public function borrarPregunta()
     {
         $idPregunta = $_GET["id"];
         $this->editorModel->borrarPregunta($idPregunta);
-        header("location:/user/home");
+        header("location:/editor/renderGestionarPreguntas");
+        exit();
+    }
+
+    public function renderEditarPregunta()
+    {
+        $idPregunta = $_GET["id"];
+        $datos["pregunta"] = $this->editorModel->obtenerPreguntaPorId($idPregunta);
+        $this->renderer->render("editar_pregunta", $datos);
+    }
+
+    public function editarPregunta()
+    {
+        $idPregunta = $_POST["id"];
+        $pregunta = $_POST["pregunta"] ?? "";
+        $this->editorModel->editarPregunta($idPregunta, $pregunta);
+        header("location:/editor/renderGestionarPreguntas");
         exit();
     }
 

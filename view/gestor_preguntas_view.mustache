@@ -1,0 +1,10 @@
+<h1>Gestor de preguntas</h1>
+<ul>
+    {{#preguntas}}
+    <li>
+        <p>{{pregunta}}</p>
+        <a href="/editor/renderEditarPregunta/id={{id}}">Editar</a>
+        <a href="/editor/borrarPregunta/id={{id}}">Borrar</a>
+    </li>
+    {{/preguntas}}
+</ul>
