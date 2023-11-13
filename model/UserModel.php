@@ -46,6 +46,6 @@ class UserModel {
         $fotoPerfil["name"] = "imagen_" . rand(1,200) . "." . pathinfo($fotoPerfil["name"], PATHINFO_EXTENSION);
 
         move_uploaded_file($fotoPerfil["tmp_name"], "public/fotosPerfil/" . $fotoPerfil["name"]);
-        return "public/fotosPerfil/" . $fotoPerfil["name"];
+        return "public/" . $fotoPerfil["name"];
     }
 }

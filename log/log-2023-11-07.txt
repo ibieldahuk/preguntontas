@@ -1,0 +1,390 @@
+[2023-11-07][INFO]Select * from Usuario where usuario = 'editor' AND contraseña = '1234'
+[2023-11-07][INFO]Ejecutando query: Select * from Usuario where usuario = 'editor' AND contraseña = '1234'
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (41, 'asd', 'SI');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (41, 'ad', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (41, 'sdasd', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (41, 'asdas', 'NO');
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 41
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (42, 'asd', 'SI');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (42, 'asda', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (42, 'asd', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (42, 'asd', 'NO');
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 42
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 12
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (43, 'vxcvx', 'SI');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (43, 'nbv', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (43, 'bmn', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (43, 'jhg', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (44, 'hhhh', 'SI');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (44, 'jjjj', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (44, 'kkk', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (44, 'lll', 'NO');
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 43
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 44
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (45, 'a', 'SI');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (45, 'a', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (45, 'a', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (45, 'a', 'NO');
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 45
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (46, 'a', 'SI');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (46, 'a', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (46, 'a', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (46, 'a', 'NO');
+[2023-11-07][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-07][INFO]Ejecutando query: DELETE FROM `preguntas` WHERE `id` = 46
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (47, 'a', 'SI');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (47, 'a', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (47, 'a', 'NO');
+[2023-11-07][INFO]Ejecutando query: INSERT INTO `respuestas` (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES (47, 'a', 'NO');

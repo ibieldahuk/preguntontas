@@ -1,0 +1,8 @@
+<h1>Editar pregunta</h1>
+<form action="/editor/editarPregunta" method="post">
+    {{#pregunta}}
+    <input type="text" name="id" value="{{id}}">
+    <input type="text" name="pregunta" value="{{pregunta}}">
+    {{/pregunta}}
+    <input type="submit" value="Editar">
+</form>
