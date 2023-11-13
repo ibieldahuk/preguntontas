@@ -68,16 +68,20 @@ class UserController {
         $email = isset($_POST["email"]) ? $_POST["email"] : "";
         $usuario= isset($_POST["usuario"]) ? $_POST["usuario"] : "";
         $contraseña= isset($_POST["contraseña"]) ? $_POST["contraseña"] : "";
-        
-        if($this->userModel->register($nombre, $apellido, $fechaNac, $genero, $email, $usuario,$contraseña, $fotoPerfil)){
-            $this->enviarMailConfirmacion($nombre, $email);
-            header("location:RenderLogin");
-            exit();
-        } else {
+        $contraRepetida = isset($_POST["repiteContraseña"]) ? $_POST["repiteCOntaseña"] : "";
+
+        if($contraseña == $contraRepetida){
+            if($this->userModel->register($nombre, $apellido, $fechaNac, $genero, $email, $usuario,$contraseña, $fotoPerfil)){
+                $this->enviarMailConfirmacion($nombre, $email);
+                header("location:RenderLogin");
+                exit();
+            }
+        }else {
             header("location:RenderRegister?error=INVALID");
             exit();
         }
-}
+
+    }
 
     public function cerrarSesion(){
         session_destroy();
