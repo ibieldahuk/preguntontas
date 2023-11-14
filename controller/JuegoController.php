@@ -8,6 +8,7 @@ class JuegoController
     public function __construct($juegoModel, $renderer) {
         $this->juegoModel = $juegoModel;
         $this->renderer = $renderer;
+
     }
 
     public function ranking(){
@@ -18,6 +19,7 @@ class JuegoController
     public function partida() {
         $_SESSION["RACHA"]=0;
         $_SESSION["REPES"]=0;
+        $_SESSION["contPartida"]++;
         $this->generarPregunta();
         $datos["racha"] = $_SESSION["RACHA"];
         $this->renderer->render("partida",$datos);

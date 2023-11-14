@@ -24,3 +24,45 @@
         ) AS grupo_edad
         FROM `usuario`
         GROUP BY grupo_edad
+[2023-11-14][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-14][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-14][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` GROUP BY genero = Femenino
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` GROUP BY genero = 'Femenino'
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` GROUP BY genero = 'Femenino'
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` GROUP BY genero = 'Masculino'
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` GROUP BY genero = 'Otro'
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` WHERE genero = 'Femenino'
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` WHERE genero = 'Masculino'
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` WHERE genero = 'Otro'
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]SELECT COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' AND contraseña = '1234'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-14][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-14][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'

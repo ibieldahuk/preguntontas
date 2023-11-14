@@ -1,5 +1,6 @@
 <?php
 
+
 class AdminModel
 {
     private $database;
@@ -20,7 +21,7 @@ class AdminModel
     }
 
     public function cantidadJugadoresPorSexo(){
-        $sql = "SELECT genero, COUNT(*) AS cantidad FROM `usuario` GROUP BY genero";
+        $sql = "SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero";
         return $this->database->query($sql);
     }
 
@@ -33,5 +34,6 @@ class AdminModel
         GROUP BY grupo_edad";
         return $this->database->query($sql);
     }
+
 
 }
