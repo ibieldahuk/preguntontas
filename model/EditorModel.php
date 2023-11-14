@@ -15,6 +15,24 @@ class EditorModel
         return $this->database->query($sql);
     }
 
+    public function obtenerPreguntasOficiales()
+    {
+        $sql = "SELECT `id`, `pregunta` FROM `preguntas` WHERE `esSugerida` = FALSE AND `estaReportada` = FALSE;";
+        return $this->database->query($sql);
+    }
+
+    public function obtenerPreguntasSugeridas()
+    {
+        $sql = "SELECT `id`, `pregunta` FROM `preguntas` WHERE `esSugerida` = TRUE;";
+        return $this->database->query($sql);
+    }
+
+    public function obtenerPreguntasReportadas()
+    {
+        $sql = "SELECT `id`, `pregunta` FROM `preguntas` WHERE `estaReportada` = TRUE;";
+        return $this->database->query($sql);
+    }
+
     public function obtenerPreguntaPorId($idPregunta)
     {
         $sql = "SELECT `id`, `pregunta` FROM `preguntas` WHERE `id` = $idPregunta;";
@@ -52,6 +70,12 @@ class EditorModel
     public function editarRespuesta($idRespuesta, $opcion, $opcionCorrecta)
     {
         $sql = "UPDATE `respuestas` SET `opcion` = '$opcion', `opcioncorrecta` = '$opcionCorrecta' WHERE `ìd` = $idRespuesta";
+        return $this->database->execute($sql);
+    }
+
+    public function oficializarPregunta($idPregunta)
+    {
+        $sql = "UPDATE `preguntas` SET `esSugerida` = FALSE, `estaReportada` = FALSE WHERE `id` = $idPregunta;";
         return $this->database->execute($sql);
     }
 
