@@ -58,4 +58,17 @@ class AdminController
         $datos["contPartida"] = $_SESSION["contPartida"];
         $this->renderer->render("cantidad_partidas_jugadas", $datos);
     }
+
+    public function renderCantidadPreguntasCorrectasPorUsuario(){
+        $usuarios = $this->adminModel->cantidadPreguntasCorrectasPorUsuario();
+
+        $datos = array();
+
+        foreach ($usuarios as$usuario){
+            $usuarioId = $usuario['id'];
+            $puntosTotales = $usuario['puntosTotales'];
+
+
+        }
+    }
 }

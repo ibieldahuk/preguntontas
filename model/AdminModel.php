@@ -35,5 +35,10 @@ class AdminModel
         return $this->database->query($sql);
     }
 
+    public function cantidadPreguntasCorrectasPorUsuario(){
+        $sql = "SELECT id, puntosTotales FROM `usuario`";
+        return $this->database->query($sql);
+    }
+
 
 }
