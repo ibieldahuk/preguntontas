@@ -3,8 +3,9 @@
     {{#preguntas}}
     <li>
         <p>{{pregunta}}</p>
-        <a href="/editor/renderEditarPregunta/id={{id}}">Editar</a>
-        <a href="/editor/borrarPregunta/id={{id}}">Borrar</a>
+        {{#metodos}}
+        <a href="/editor/{{metodo}}/id={{id}}">{{texto}}</a>
+        {{/metodos}}
     </li>
     {{/preguntas}}
 </ul>
