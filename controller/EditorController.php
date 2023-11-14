@@ -26,7 +26,7 @@ class EditorController
 
         if ($this->editorModel->altaPregunta($pregunta, $respuestaCorrecta, $respuestaIncorrecta1, $respuestaIncorrecta2, $respuestaIncorrecta3))
         {
-            header("location:/user/home");
+            header("location:renderCrearPregunta");
             exit();
         } else {
             header("location:renderCrearPregunta?error=INVALID");
@@ -34,7 +34,7 @@ class EditorController
         }
     }
 
-    public function renderGestionarPreguntas()
+    public function renderBorrarPregunta()
     {
         $datos["preguntas"] = $this->editorModel->obtenerPreguntasOficiales();
         $datos["metodos"] = [
@@ -64,6 +64,8 @@ class EditorController
             array("metodo" => "borrarPregunta", "texto" => "Borrar")
         ];
         $this->renderer->render("gestor_preguntas", $datos);
+        $datos["preguntas"] = $this->editorModel->obtenerPreguntas();
+        $this->renderer->render("borrar_pregunta", $datos);
     }
 
     public function borrarPregunta()

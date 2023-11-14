@@ -15,7 +15,6 @@ class UserModel {
         return sizeof($result) == 1;
     }
 
-
     public function register($nombre, $apellido, $fechaNac, $genero, $email, $usuario,$contraseña, $fotoPerfil){
         $sql = "Select * from Usuario where usuario = '$usuario' OR email = '$email'";
         Logger::info($sql);
@@ -47,6 +46,6 @@ class UserModel {
         $fotoPerfil["name"] = "imagen_" . rand(1,200) . "." . pathinfo($fotoPerfil["name"], PATHINFO_EXTENSION);
 
         move_uploaded_file($fotoPerfil["tmp_name"], "public/fotosPerfil/" . $fotoPerfil["name"]);
-        return "public/" . $fotoPerfil["name"];
+        return "public/fotosPerfil/" . $fotoPerfil["name"];
     }
 }

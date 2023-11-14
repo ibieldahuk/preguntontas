@@ -48,7 +48,7 @@ class UserController {
     public function Login() {
         $usuario= isset($_POST["usuario"]) ? $_POST["usuario"] : "";
         $contraseña= isset($_POST["contraseña"]) ? $_POST["contraseña"] : "";
-
+        
         if($this->userModel->login($usuario,$contraseña)){
             $_SESSION["usuario"]=$usuario;
             header("location:home");
@@ -68,20 +68,16 @@ class UserController {
         $email = isset($_POST["email"]) ? $_POST["email"] : "";
         $usuario= isset($_POST["usuario"]) ? $_POST["usuario"] : "";
         $contraseña= isset($_POST["contraseña"]) ? $_POST["contraseña"] : "";
-        $contraRepetida = isset($_POST["repiteContraseña"]) ? $_POST["repiteContraseña"] : "";
-
-        if(strcmp($contraseña, $contraRepetida) == 0){
-            if($this->userModel->register($nombre, $apellido, $fechaNac, $genero, $email, $usuario,$contraseña, $fotoPerfil)){
-                $this->enviarMailConfirmacion($nombre, $email);
-                header("location:RenderLogin");
-                exit();
-            }
-        }else {
+        
+        if($this->userModel->register($nombre, $apellido, $fechaNac, $genero, $email, $usuario,$contraseña, $fotoPerfil)){
+            $this->enviarMailConfirmacion($nombre, $email);
+            header("location:RenderLogin");
+            exit();
+        } else {
             header("location:RenderRegister?error=INVALID");
             exit();
         }
-
-    }
+}
 
     public function cerrarSesion(){
         session_destroy();

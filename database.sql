@@ -11,8 +11,12 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
+create database if not exists preguntonta;
+
+use preguntonta;
+
 CREATE TABLE `usuario` (
-                           `id` int(11) NOT NULL,
+                           `id` int(11) PRIMARY KEY AUTO_INCREMENT,
                            `nombre` varchar(50) NOT NULL,
                            `apellido` varchar(50) NOT NULL,
                            `fechaNac` date NOT NULL,
@@ -22,27 +26,39 @@ CREATE TABLE `usuario` (
                            `contraseña` varchar(50) DEFAULT NULL,
                            `fotoPerfil` varchar(250) NOT NULL,
                            `record` int(11) DEFAULT 0,
-                           `puntosTotales` int(11) DEFAULT 0
+                           `puntosTotales` int(11) DEFAULT 0,
+						   `qtyPreguntas` int(11) DEFAULT 0,
+						   `qtyCorrectas` int(11) DEFAULT 0,
+						   `shareCorrecta` Float DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `usuario` (`id`, `nombre`, `apellido`, `fechaNac`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`, `record`, `puntosTotales`) VALUES
     (1, 'admin', 'admin', '2003-03-20', 'Mascuino', 'admin@test.com', 'admin', '1234', '', 0, 0),
     (2, 'editor', 'editor', '2000-10-10', 'Femenino', 'editor@test.com', 'editor', '1234', '', 0, 0);
 
-ALTER TABLE `usuario`
-    ADD PRIMARY KEY (`id`);
+CREATE TABLE repetida (
+    id_usuario INT(4),
+    id_preguntaRepetida INT(4)
+);
 
-ALTER TABLE `usuario`
-    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
-COMMIT;
+CREATE TABLE preguntas_sugerida (
+    id INT(4) PRIMARY KEY AUTO_INCREMENT,
+    pregunta varchar(150),
+	respuesta varchar(100),
+	opcion1 varchar(100),
+	opcion2 varchar(100),
+	opcion3 varchar(100),
+	categoria varchar(50)
+);
 
 CREATE TABLE preguntas (
-    ID INT(2) PRIMARY KEY AUTO_INCREMENT,
-    pregunta VARCHAR(100),
+    ID INT(4) PRIMARY KEY AUTO_INCREMENT,
+    pregunta VARCHAR(200),
     categoria VARCHAR(20),
-    qty INT,
-    correctas INT,
-    sharecorrecta INT
+    qty INT(4),
+    correctas INT(4),
+    sharecorrecta FLOAT,
+	reportada BOOLEAN DEFAULT FALSE
 );
 
 INSERT INTO preguntas (pregunta, categoria, qty, correctas, sharecorrecta) VALUES
@@ -88,7 +104,7 @@ INSERT INTO preguntas (pregunta, categoria, qty, correctas, sharecorrecta) VALUE
     ("Una vez disuelta la Union Sovietica ¿Cuál paso a ser el pais mas extenso del mundo?", "Geografia", 1, 1, 1);
 
 CREATE TABLE respuestas (
-    ID INT(2) PRIMARY KEY AUTO_INCREMENT,
+    ID INT(4) PRIMARY KEY AUTO_INCREMENT,
     ID_preguntas INT(2),
     opcion VARCHAR(40),
     opcioncorrecta VARCHAR(2)
