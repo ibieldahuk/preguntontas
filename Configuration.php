@@ -7,12 +7,10 @@ include_once('helpers/Logger.php');
 include_once("model/UserModel.php");
 include_once("model/JuegoModel.php");
 include_once("model/EditorModel.php");
-include_once ("model/AdminModel.php");
 
 include_once('controller/UserController.php');
 include_once('controller/JuegoController.php');
 include_once('controller/EditorController.php');
-include_once ('controller/AdminController.php');
 
 include_once('third-party/mustache/src/Mustache/Autoloader.php');
 
@@ -40,12 +38,6 @@ class Configuration {
             new EditorModel($this->getDatabase()),
             $this->getRenderer()
         );
-    }
-
-    public function getAdminController() {
-        return new AdminController(
-            new AdminModel($this->getDatabase()),
-            $this->getRenderer());
     }
 
     private function getArrayConfig() {
