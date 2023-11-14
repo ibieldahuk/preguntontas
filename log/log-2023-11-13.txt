@@ -1,0 +1,52 @@
+[2023-11-13][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-13][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-13][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-13][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-13][INFO]Ejecutando query: SELECT COUNT(*)  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT COUNT(*)  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT COUNT(*)  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT COUNT(*)  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT COUNT(*)  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Array
+[2023-11-13][INFO]Ejecutando query: SELECT COUNT(*)  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Array
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]0
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]0
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]0
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]0
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]0
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]0
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]0
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]0
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]0
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]0
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Select * from Usuario where usuario = 'guada' OR email = 'guadapfernandez@gmail.com'
+[2023-11-13][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' OR email = 'guadapfernandez@gmail.com'
+[2023-11-13][INFO]Ejecutando query: INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`) 
+                VALUES ( 'Guadalupe', 'Fernandez', '2000-06-20', 'Femenino', 'guadapfernandez@gmail.com','guada', '1234', 'public/imagen_124.jpg' )
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-13][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2
+[2023-11-13][INFO]Ejecutando query: SELECT id  FROM `usuario` WHERE id > 2

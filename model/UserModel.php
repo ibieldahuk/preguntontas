@@ -15,6 +15,7 @@ class UserModel {
         return sizeof($result) == 1;
     }
 
+
     public function register($nombre, $apellido, $fechaNac, $genero, $email, $usuario,$contraseña, $fotoPerfil){
         $sql = "Select * from Usuario where usuario = '$usuario' OR email = '$email'";
         Logger::info($sql);
