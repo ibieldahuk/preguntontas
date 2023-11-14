@@ -41,6 +41,16 @@ CREATE TABLE repetida (
     id_preguntaRepetida INT(4)
 );
 
+CREATE TABLE preguntas_sugerida (
+    id INT(4) PRIMARY KEY AUTO_INCREMENT,
+    pregunta varchar(150),
+	respuesta varchar(100),
+	opcion1 varchar(100),
+	opcion2 varchar(100),
+	opcion3 varchar(100),
+	categoria varchar(50)
+);
+
 CREATE TABLE preguntas (
     ID INT(4) PRIMARY KEY AUTO_INCREMENT,
     pregunta VARCHAR(200),
