@@ -55,11 +55,11 @@ class EditorModel
             $this->database->execute($sqlRespuestaI3);
     }
 
-    public function obtenerPreguntas()
+    /*public function obtenerPreguntas()
     {
         $sql = "SELECT `id`, `pregunta` FROM `preguntas`;";
         return $this->database->query($sql);
-    }
+    }*/
 
     public function borrarPregunta($idPregunta)
     {

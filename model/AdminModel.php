@@ -35,9 +35,14 @@ class AdminModel
         return $this->database->query($sql);
     }
 
-    public function cantidadPreguntasCorrectasPorUsuario(){
-        $sql = "SELECT id, puntosTotales FROM `usuario`";
+    public function cantidadPreguntasPorUsuario(){
+        $sql = "SELECT id, puntosTotales, qtyPreguntas FROM `usuario` ORDER BY id";
         return $this->database->query($sql);
+    }
+
+    public function cantidadJugadoresNuevos(){
+        $sql = "SELECT * FROM `usuario` WHERE fecha_creacion >= DATE_SUB(CURDATE(), INTERVAL 15 DAY)";
+        return sizeof($this->database->query($sql));
     }
 
 
