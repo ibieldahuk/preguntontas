@@ -13,6 +13,7 @@ include_once('controller/UserController.php');
 include_once('controller/JuegoController.php');
 include_once('controller/EditorController.php');
 include_once ('controller/AdminController.php');
+include_once ('controller/PDFController.php');
 
 include_once('third-party/mustache/src/Mustache/Autoloader.php');
 
@@ -45,7 +46,12 @@ class Configuration {
     public function getAdminController() {
         return new AdminController(
             new AdminModel($this->getDatabase()),
-            $this->getRenderer());
+            $this->getRenderer()
+        );
+    }
+
+    public function getPDFController() {
+        return new PDFController();
     }
 
     private function getArrayConfig() {

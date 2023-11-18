@@ -26,7 +26,7 @@ class EditorController
 
         if ($this->editorModel->altaPregunta($pregunta, $respuestaCorrecta, $respuestaIncorrecta1, $respuestaIncorrecta2, $respuestaIncorrecta3))
         {
-            header("location:/user/home");
+            header("location:renderCrearPregunta");
             exit();
         } else {
             header("location:renderCrearPregunta?error=INVALID");
@@ -34,10 +34,38 @@ class EditorController
         }
     }
 
-    public function renderGestionarPreguntas()
+    public function renderBorrarPregunta()
     {
-        $datos["preguntas"] = $this->editorModel->obtenerPreguntas();
+        $datos["preguntas"] = $this->editorModel->obtenerPreguntasOficiales();
+        $datos["metodos"] = [
+            array("metodo" => "renderEditarPregunta", "texto" => "Editar"),
+            array("metodo" => "borrarPregunta", "texto" => "Borrar")
+            ];
         $this->renderer->render("gestor_preguntas", $datos);
+    }
+
+    public function verPreguntasSugeridas()
+    {
+        $datos["preguntas"] = $this->editorModel->obtenerPreguntasSugeridas();
+        $datos["metodos"] = [
+            array("metodo" => "borrarPregunta", "texto" => "Descartar"),
+            array("metodo" => "renderEditarPregunta", "texto" => "Modificar"),
+            array("metodo" => "oficializarPregunta", "texto" => "Aceptar")
+        ];
+        $this->renderer->render("gestor_preguntas", $datos);
+    }
+
+    public function verPreguntasReportadas()
+    {
+        $datos["preguntas"] = $this->editorModel->obtenerPreguntasReportadas();
+        $datos["metodos"] = [
+            array("metodo" => "renderEditarPregunta", "texto" => "Descartar"),
+            array("metodo" => "renderEditarPregunta", "texto" => "Modificar"),
+            array("metodo" => "borrarPregunta", "texto" => "Borrar")
+        ];
+        $this->renderer->render("gestor_preguntas", $datos);
+        $datos["preguntas"] = $this->editorModel->obtenerPreguntas();
+        $this->renderer->render("borrar_pregunta", $datos);
     }
 
     public function borrarPregunta()
@@ -62,6 +90,13 @@ class EditorController
         $this->editorModel->editarPregunta($idPregunta, $pregunta);
         header("location:/editor/renderGestionarPreguntas");
         exit();
+    }
+
+    public function oficializarPregunta()
+    {
+        $idPregunta = $_GET["id"];
+        $this->editorModel->oficializarPregunta($idPregunta);
+        header("location:/editor/verPreguntasSugeridas");
     }
 
 }

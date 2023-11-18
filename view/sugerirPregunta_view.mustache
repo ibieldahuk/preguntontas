@@ -1,0 +1,38 @@
+
+<div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px' id='band'>
+    <form action="/juego/sugerirPregunta" method="post" enctype="multipart/form-data">
+        <div class="w3-row-padding">
+            <div class="w3-half">
+                <div class="w3-margin">
+                    <input type="text" placeholder="Ingresa pregunta" name="pregunta" class="w3-input" required>
+                </div>
+                    <hr>
+                <div class="w3-margin">
+                    <input type="text" placeholder="Ingresa respuesta correcta" name="respuesta_correcta" class="w3-input" required>
+                </div>
+
+                <div class="w3-margin">
+                    <input type="text" placeholder="Ingresa otra opcion" name="Opcion1" class="w3-input" required>
+                </div>
+
+                <div class="w3-margin">
+                    <input type="text" placeholder="Ingresa otra opcion (opcional)" name="Opcion2" class="w3-input">
+                </div>
+
+                <div class="w3-margin">
+                    <input type="text" placeholder="Ingresa otra opcion (opcional)" name="Opcion3" class="w3-input">
+                </div>
+                    <hr>
+                <div class="w3-margin">
+                    <select name="categoria" class="w3-select" required>
+                        <option value="" disabled selected>Seleccione una categoria</option>
+                        <option value="Entretenimiento">Entretenimiento</option>
+                        <option value="Deporte">Deporte</option>
+                        <option value="Naturaleza">Naturaleza</option>
+                    </select>
+                </div>
+                <button class="w3-button w3-round-large w3-teal" type="submit">Sugerir</button>
+            </div>
+        </div>
+    </form>
+</div>
