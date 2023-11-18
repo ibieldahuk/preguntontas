@@ -1,0 +1,9 @@
+[2023-11-15][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario`
+[2023-11-15][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario`
+[2023-11-15][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario`
+[2023-11-15][INFO]Array
+[2023-11-15][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario`
+[2023-11-15][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario`
+[2023-11-15][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario`
+[2023-11-15][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario`
+[2023-11-15][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario`

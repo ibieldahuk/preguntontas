@@ -1,0 +1,48 @@
+<script type="text/javascript">
+    var data;
+    var chart;
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var jsonString = '{{{dataForChart}}}';
+
+        try{
+            var jsonData = JSON.parse(jsonString);
+            // Create our data table.
+            data = new google.visualization.DataTable();
+            data.addColumn('string', 'Usuario');
+            data.addColumn('number', 'Cantidad');
+            for(var i=0; i<jsonData.length; i++){
+                data.addRow([jsonData[i][0], jsonData[i][1]]);
+            }
+
+            // Set chart options
+            var options = {'title':'Porcentaje de preguntas respondidas por cada usuario'};
+
+            // Instantiate and draw our chart, passing in some options.
+            chart = new google.visualization.PieChart(document.getElementById('grafico'));
+            google.visualization.events.addListener(chart, 'select', selectHandler);
+            chart.draw(data, options);
+
+            document.getElementById('img').value = chart.getImageURI();
+        }catch (e) {
+            console.error('Error al parsear', e);
+        }
+
+    }
+
+    function selectHandler() {
+        var selectedItem = chart.getSelection()[0];
+        var value = data.getValue(selectedItem.row, 0);
+        alert('The user selected ' + value);
+    }
+
+</script>
+
+<form action="/admin/generarPDF" method="post">
+    <input type="hidden" name="img" id="img">
+    <div id="grafico" style="width: 100%; height: 500px;"></div>
+
+    <button type="submit">Generar PDF</button>
+</form>

@@ -1,0 +1,66 @@
+[2023-11-18][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-18][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-18][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad, CONCAT(IF(YEAR(CURDATE()) - YEAR(fechaNac) < 18, 'Menor de 18', ''),
+            IF(YEAR(CURDATE()) - YEAR(fechaNac) BETWEEN 18 AND 59, '18-59', ''),
+            IF(YEAR(CURDATE()) - YEAR(fechaNac) >= 60, '60 o más', '')
+        ) AS grupo_edad
+        FROM `usuario`
+        GROUP BY grupo_edad
+[2023-11-18][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad, CONCAT(IF(YEAR(CURDATE()) - YEAR(fechaNac) < 18, 'Menor de 18', ''),
+            IF(YEAR(CURDATE()) - YEAR(fechaNac) BETWEEN 18 AND 59, '18-59', ''),
+            IF(YEAR(CURDATE()) - YEAR(fechaNac) >= 60, '60 o más', '')
+        ) AS grupo_edad
+        FROM `usuario`
+        GROUP BY grupo_edad
+[2023-11-18][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-18][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-18][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario`
+[2023-11-18][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario` ORDER BY id
+[2023-11-18][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario` ORDER BY id
+[2023-11-18][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario` ORDER BY id
+[2023-11-18][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario` ORDER BY id
+[2023-11-18][INFO]Ejecutando query: SELECT id, puntosTotales, qtyPreguntas FROM `usuario` ORDER BY id
+[2023-11-18][INFO]Ejecutando query: SELECT * as cantidad FROM `usuario` WHERE fecha_creacion >= DATE_SUB(CURDATE(), INTERVAL 15 DAY)
+[2023-11-18][INFO]Ejecutando query: SELECT * FROM `usuario` WHERE fecha_creacion >= DATE_SUB(CURDATE(), INTERVAL 15 DAY)
+[2023-11-18][INFO]Ejecutando query: SELECT * FROM `usuario` WHERE fecha_creacion >= DATE_SUB(CURDATE(), INTERVAL 15 DAY)
+[2023-11-18][INFO]Ejecutando query: SELECT * FROM `usuario` WHERE fecha_creacion >= DATE_SUB(CURDATE(), INTERVAL 15 DAY)
+[2023-11-18][INFO]3
+[2023-11-18][INFO]Ejecutando query: SELECT * FROM `usuario` WHERE fecha_creacion >= DATE_SUB(CURDATE(), INTERVAL 15 DAY)
+[2023-11-18][INFO]3

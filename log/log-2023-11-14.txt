@@ -5,57 +5,57 @@
 [2023-11-14][INFO]Ejecutando query: INSERT INTO preguntas_sugerida (pregunta, respuesta, opcion1, categoria) VALUES ('Como es eso ?', 'y asi', 'nono mejor asi', 'Deporte')
 [2023-11-14][INFO]Ejecutando query: INSERT INTO preguntas_sugerida (pregunta, respuesta, opcion1, categoria) VALUES ('Como es eso ?', 'y asi', 'nono mejor asi', 'Deporte')
 [2023-11-14][INFO]Ejecutando query: INSERT INTO preguntas_sugerida (pregunta, respuesta, opcion1, categoria) VALUES ('Como es eso ?', 'y asi', 'nono mejor asi', 'Deporte')
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
 [2023-11-14][INFO]Ejecutando query: INSERT INTO preguntas_sugerida (pregunta, respuesta, opcion1, opcion2, opcion3, categoria) VALUES ('Como comes?', 'Como como como ?', 'asd', 'asd', 'asd', 'Entretenimiento')
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
 [2023-11-14][INFO]Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
 [2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
 [2023-11-14][INFO]Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
 [2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
 [2023-11-14][INFO]Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
 [2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 0.3 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 0.3
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -79,23 +79,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 0.3 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 0.3
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -119,23 +119,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 0.3 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 0.3
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -159,23 +159,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 0.3 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 0.3
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -199,23 +199,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 0.3 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 0.3
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -239,23 +239,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 0.3 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 0.3
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -299,7 +299,7 @@
                 where ID=9
 [2023-11-14][INFO]Ejecutando query: Select record from usuario where usuario = 'matias'
 [2023-11-14][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 5 where usuario = 'matias' 
+[2023-11-14][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 5 where usuario = 'matias'
 [2023-11-14][INFO]Ejecutando query: Select *
                 from Preguntas
                 where id = 9
@@ -315,23 +315,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -529,23 +529,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -593,23 +593,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -657,23 +657,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -721,23 +721,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -785,23 +785,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -849,23 +849,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -913,23 +913,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 0.3 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 0.3
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -977,23 +977,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 0.3 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 0.3
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -1041,23 +1041,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 0.3 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 0.3
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -1105,23 +1105,23 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 0.3 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 0.3
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'matias'
@@ -1169,50 +1169,50 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
 [2023-11-14][INFO]Select * from Usuario where usuario = 'pepe' OR email = 'asd@hotmail.com'
 [2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'pepe' OR email = 'asd@hotmail.com'
-[2023-11-14][INFO]Ejecutando query: INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`) 
+[2023-11-14][INFO]Ejecutando query: INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`)
                 VALUES ( 'pepe', 'caca', '1995-03-12', 'Masculino', 'asd@hotmail.com','pepe', '1234asd', 'public/fotosPerfil/imagen_186.JPG' )
 [2023-11-14][INFO]Select * from Usuario where usuario = 'pepe' OR email = 'asd@hotmail.com'
 [2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'pepe' OR email = 'asd@hotmail.com'
 [2023-11-14][INFO]Select * from Usuario where usuario = 'asd' OR email = 'asdasd@hotmail.com'
 [2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'asd' OR email = 'asdasd@hotmail.com'
-[2023-11-14][INFO]Ejecutando query: INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`) 
+[2023-11-14][INFO]Ejecutando query: INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`)
                 VALUES ( 'asd', 'asd', '1212-12-12', '', 'asdasd@hotmail.com','asd', '1234asd', 'public/fotosPerfil/imagen_147.JPG' )
 [2023-11-14][INFO]Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
 [2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' AND contraseña = '1234'
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'matias'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 3
-[2023-11-14][INFO]Select * from Usuario where usuario = 'matias' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
 [2023-11-14][INFO]Select * from Usuario where usuario = 'pepe' AND contraseña = 'asd'
 [2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'pepe' AND contraseña = 'asd'
 [2023-11-14][INFO]Select * from Usuario where usuario = 'pepe' AND contraseña = '1234asd'
 [2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'pepe' AND contraseña = '1234asd'
-[2023-11-14][INFO]Select * from Usuario where usuario = 'pepe' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'pepe' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'pepe'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'pepe'
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1236,12 +1236,12 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1265,12 +1265,12 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1294,12 +1294,12 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1323,18 +1323,18 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1358,18 +1358,18 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1393,18 +1393,18 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1428,18 +1428,18 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1463,18 +1463,18 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1498,18 +1498,18 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.3 and 0.6 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.3 and 0.6
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0 and 1 
+
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1533,17 +1533,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1567,17 +1567,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1601,17 +1601,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1635,17 +1635,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1669,17 +1669,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1703,17 +1703,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1737,17 +1737,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1771,17 +1771,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1802,22 +1802,22 @@
                 Set qtyPreguntas=18
                 where usuario = 'pepe'
 [2023-11-14][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 19
-[2023-11-14][INFO]Select * from Usuario where usuario = 'pepe' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'pepe' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'pepe'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'pepe'
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1865,17 +1865,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1923,17 +1923,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -1955,9 +1955,9 @@
                 where usuario = 'pepe'
 [2023-11-14][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 40
 [2023-11-14][INFO]Ejecutando query: Select record from usuario where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: UPDATE USUARIO SET record = 2 where usuario = 'pepe' 
+[2023-11-14][INFO]Ejecutando query: UPDATE USUARIO SET record = 2 where usuario = 'pepe'
 [2023-11-14][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 2 where usuario = 'pepe' 
+[2023-11-14][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 2 where usuario = 'pepe'
 [2023-11-14][INFO]Ejecutando query: Select *
                 from Preguntas
                 where id = 40
@@ -1973,17 +1973,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -2031,17 +2031,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -2089,17 +2089,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -2122,7 +2122,7 @@
 [2023-11-14][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 14
 [2023-11-14][INFO]Ejecutando query: Select record from usuario where usuario = 'pepe'
 [2023-11-14][INFO]Ejecutando query: Select puntosTotales from usuario where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 4 where usuario = 'pepe' 
+[2023-11-14][INFO]Ejecutando query: UPDATE USUARIO SET puntosTotales = 4 where usuario = 'pepe'
 [2023-11-14][INFO]Ejecutando query: Select *
                 from Preguntas
                 where id = 14
@@ -2138,17 +2138,17 @@
 [2023-11-14][INFO]Ejecutando query: Select *
                 from usuario
                 where usuario = 'pepe'
-[2023-11-14][INFO]Ejecutando query: Select id 
+[2023-11-14][INFO]Ejecutando query: Select id
                 from Preguntas
-[2023-11-14][INFO]Ejecutando query: Select id_usuario 
+[2023-11-14][INFO]Ejecutando query: Select id_usuario
                 from Repetida
                 where id_usuario = 4
-[2023-11-14][INFO]Ejecutando query: 
-            Select * 
-            from Preguntas 
-            where shareCorrecta BETWEEN 0.6 and 1 
+[2023-11-14][INFO]Ejecutando query:
+            Select *
+            from Preguntas
+            where shareCorrecta BETWEEN 0.6 and 1
             and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 4)
-            
+
 [2023-11-14][INFO]Ejecutando query: Select id
                 from usuario
                 where usuario = 'pepe'
@@ -2169,7 +2169,75 @@
                 Set qtyPreguntas=25
                 where usuario = 'pepe'
 [2023-11-14][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 7
-[2023-11-14][INFO]Select * from Usuario where usuario = 'pepe' 
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'pepe' 
+[2023-11-14][INFO]Select * from Usuario where usuario = 'pepe'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'pepe'
 [2023-11-14][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
-[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias' 
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'matias'
+[2023-11-14][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-14][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]SELECT COUNT(*) FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]SELECT COUNT(*) FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]SELECT COUNT(*) FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` GROUP BY genero
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad, CONCAT(IF(YEAR(CURDATE()) - YEAR(fechaNac) < 18, 'Menor de 18', ''),
+            IF(YEAR(CURDATE()) - YEAR(fechaNac) BETWEEN 18 AND 59, '18-59', ''),
+            IF(YEAR(CURDATE()) - YEAR(fechaNac) >= 60, '60 o más', '')
+        ) AS grupo_edad
+        FROM `usuario`
+        GROUP BY grupo_edad
+[2023-11-14][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-14][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-14][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` GROUP BY genero = Femenino
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` GROUP BY genero = 'Femenino'
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` GROUP BY genero = 'Femenino'
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` GROUP BY genero = 'Masculino'
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` GROUP BY genero = 'Otro'
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` WHERE genero = 'Femenino'
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` WHERE genero = 'Masculino'
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` WHERE genero = 'Otro'
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]SELECT COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-14][INFO]Ejecutando query: SELECT COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-14][INFO]Array
+[2023-11-14][INFO]Ejecutando query: SELECT genero, COUNT(*) AS cantidad FROM `usuario` group by genero
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' AND contraseña = '1234'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada'
+[2023-11-14][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-14][INFO]Ejecutando query: Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'guada'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada'
+[2023-11-14][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-14][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
