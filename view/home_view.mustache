@@ -1,6 +1,16 @@
+<style>
+    .fondo{
+        background-image: url("/../public/FondoGral.jpeg");
+        background-size: 100%;
+    }
 
+</style>
+
+<body class="fondo">
 <div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px' id='band'>
-    <h2 class='w3-wide'>Preguntontas</h2>
+        {{#completo}}
+            {{completo}}
+        {{/completo}}
     <table class='w3-table'>
     <h1>Lobby</h1>
         {{#usuario}}
@@ -10,7 +20,7 @@
             pts</h2>
         <h2><a href="/juego/partida">Nueva partida</a></h2>
         <h2><a href="/juego/ranking">Ver Ranking</a></h2>
-        <h2>Sugerir una pregunta</h2>
+        <h2><a href="/juego/sugerir">Sugerir una pregunta</a></h2>
         {{/usuario}}
         <hr>
         {{#editor}}
@@ -19,14 +29,19 @@
         <h2><a href="/editor/renderCrearPregunta">Nueva pregunta</a></h2>
         <h2><a href="/editor/renderGestionarPreguntas">Gestor de preguntas</a></h2>
         <h2><a href="/editor/verPreguntasReportadas">Chequear las preguntas reportadas por usuarios</a></h2>
+
         <hr>
         {{/editor}}
         {{#admin}}
         <h1>Lobby ADMIN</h1>
             <a href="/admin/renderCantidadJugadores">Cantidad total jugadores</a> <br>
+            <a href="/admin/renderCantidadJugadoresNuevos">Cantidad de jugadores nuevos</a> <br>
             <a href="/admin/renderCantidadPreguntas">Cantidad total de Preguntas</a> <br>
             <a href="/admin/renderCantidadJugadoresSexo">Cantidad de jugadores por sexo</a> <br>
-            <a href="/admin/renderCantidadJugadoresEdad">Cantidad de jugadores por edad</a>
+            <a href="/admin/renderCantidadJugadoresEdad">Cantidad de jugadores por edad</a> <br>
+            <a href="/admin/renderCantidadPartidasJugadas">Cantidad de partidas jugadas</a> <br>
+            <a href="/admin/renderCantidadPreguntasCorrectasPorUsuario">Cantidad de preguntas correctas por usuario</a>
         {{/admin}}
     </table>
 </div>
+</body>

@@ -1,19 +1,83 @@
+<style>
+    .fondo{
+        background-image: url("/../public/Fondo3.jpeg");
+        background-size: 100%;
+    }
 
+    a{
+        text-decoration: none;
+    }
+
+    li{
+        list-style: none;
+        padding: 5px;
+        margin: 10px;
+    }
+    .opciones{
+        background-color: rgba(255,255,255,1);
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .pregunta{
+        background-color: rgba(255,255,255,1);
+        border-radius: 10px;
+        padding: 50px;
+        margin-bottom: 20px;
+    }
+    .opciones:hover{
+        background-color: rgba(0,0,0,0.5);
+        transition: 0.2s;
+        box-shadow: 1px 1px 3px black;
+        color: white;
+    }
+    .tarjeta{
+        background-color: rgba(0,0,0,0.8);
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .reporte{
+        color: rgba(255, 0, 0, 0.8);
+        margin-top: 20px;
+    }
+    .reporte:hover{
+        text-decoration: underline;
+    }
+
+    .racha{
+        color: white;
+        
+    }
+</style>
+
+<body class="fondo">
 <div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px' id='band'>
     <h1 class='w3-wide'>Preguntontas</h1>
-    <table class='w3-table'>
+    <div class="tarjeta">
     {{#pregunta}}
+    <div class="pregunta">
     <h2>{{Pregunta}}</h2>
+    </div>
     {{/pregunta}}
     {{#respuestas}}
-        <li><a href="/juego/respuesta/id={{OpcionCorrecta}}">{{Opcion}}</a></li>
-    </table>
+        <div class="opciones"><a href="/juego/respuesta/id={{opcioncorrecta}}">
+        <li>{{opcion}}</li></a>
+        </div>
     {{/respuestas}}
     {{#check}}
         {{check}}
         <h2><a href="/juego/partida">Nueva partida</a></h2>
     {{/check}}
     {{#racha}}
-        <div>Tu racha es de: {{racha}}</div>
+        <div class="racha">Tu racha es de: {{racha}}</div>
     {{/racha}}
+
+    {{#idPregunta}}
+        <div class="reporte"><a href="/juego/reportarPregunta/id={{idPregunta}}"><i class="bi bi-exclamation-lg"></i>Reportar pregunta</a>
+        {{#reportar}}
+            <p>Esta pregunta fue reportada</p>
+        {{/reportar}}
+        </div>
+    {{/idPregunta}}
+    </div>
 </div>
+</body>

@@ -8,51 +8,93 @@ class JuegoModel
         $this->database = $database;
     }
 
+    public function preguntaRepetida($id){
+        $usuario = $_SESSION["usuario"];
+        $sql = "Select id
+                from usuario
+                where usuario = '$usuario'";
+
+        $consulta=$this->database->query($sql);
+
+        foreach ($consulta as $user) {
+            $idUser = $user["id"];
+        }
+
+        $sql = "INSERT INTO repetida (id_usuario,id_preguntaRepetida) VALUES ($idUser,$id)";
+
+        $this->database->execute($sql);
+    }
+
     public function idPregunta(){
         $usuario = $_SESSION["usuario"];
         $sql = "Select *
                 from usuario
                 where usuario = '$usuario'";
 
-
         $consulta=$this->database->query($sql);
 
-        foreach ($consulta as $var){
 
-            if($var["qtyPreguntas"]<10){
+        foreach ($consulta as $user){
 
-                $pregunta = $this->database->query("Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6");
+            if($user["qtyPreguntas"]<10){
 
-                foreach ($pregunta as $toArray){
-                    $array[]=$toArray["ID"];
-                }
-                return $array[array_rand($array,1)];
+                return $array[] = $this->elegirPreguntaConDificultad(0.3,0.6,$user["id"]);
+
             }else{
-                if($var["shareCorrecta"]<0.3){
 
-                    $pregunta = $this->database->query("Select * from Preguntas where shareCorrecta > 0.6 ");
-                    foreach ($pregunta as $toArray){
-                        $array[]=$toArray["ID"];
-                    }
-                    return $array[array_rand($array,1)];
-                }else if($var["shareCorrecta"]>0.6){
+                if($this->todasRespondidas($user["id"])){
+                    return NULL;
+                }
+                if($user["shareCorrecta"]<0.3){
 
-                    $pregunta = $this->database->query("Select * from Preguntas where shareCorrecta < 0.3 ");
-                    foreach ($pregunta as $toArray){
-                        $array[]=$toArray["ID"];
-                    }
-                    return $array[array_rand($array,1)];
+                    return $array[] = $this->elegirPreguntaConDificultad(0.6,1,$user["id"]);
+
+                }else if($user["shareCorrecta"]>0.6){
+
+                    return $array[] = $this->elegirPreguntaConDificultad(0,0.3,$user["id"]);
+
                 }else{
-                    $pregunta = $this->database->query("Select * from Preguntas where shareCorrecta BETWEEN 0.3 and 0.6 ");
-                    var_dump($pregunta);
-                    die();
-                    foreach ($pregunta as $toArray){
-                        $array[]=$toArray["ID"];
-                    }
-                    return $array[array_rand($array,1)];
+
+                    return $array[] = $this->elegirPreguntaConDificultad(0.3,0.6,$user["id"]);
+
                 }
             }
         }
+    }
+
+    public function elegirPreguntaConDificultad($min,$max,$user)
+    {
+        $pregunta = $this->database->query("
+            Select * 
+            from Preguntas 
+            where shareCorrecta BETWEEN $min and $max 
+            and id not in ( Select id_preguntaRepetida from repetida where id_usuario = $user)
+            ");
+        foreach ($pregunta as $toArray) {
+            $array[] = $toArray["ID"];
+        }
+        if($array == NULL){
+            $array[] = $this->elegirPreguntaConDificultad(0,1,$user);
+            return $array[array_rand($array, 1)];
+        }else {
+            return $array[array_rand($array, 1)];
+        }
+    }
+
+    public function todasRespondidas($idUser){
+        $consulta = "Select id 
+                from Preguntas";
+        $preguntas = $this->database->query($consulta);
+
+        $consulta = "Select id_usuario 
+                from Repetida
+                where id_usuario = $idUser";
+        $respondidas = $this->database->query($consulta);
+
+        if(sizeof($preguntas)==sizeof($respondidas)){
+            return TRUE;
+        }else
+            return FALSE;
     }
 
     public function elegirPregunta($id){
@@ -60,6 +102,13 @@ class JuegoModel
                 from Preguntas
                 where id = $id";
         return $this->database->query($sql);
+    }
+
+    public function reportarPregunta($id){
+        $sql = "UPDATE preguntas
+                set reportada = TRUE
+                where ID=$id";
+        $this->database->execute($sql);
     }
 
     public function contarPregunta($id){
@@ -207,5 +256,15 @@ class JuegoModel
         return $this->database->query($sql);
     }
 
-
+    public function sugerirPregunta($pregunta, $respuesta, $opcion1, $opcion2, $opcion3, $categoria){
+        if($opcion2 == ""){
+            if($opcion3 == "") {
+                $sql = "INSERT INTO preguntas_sugerida (pregunta, respuesta, opcion1, categoria) VALUES ('$pregunta', '$respuesta', '$opcion1', '$categoria')";
+                $this->database->execute($sql);
+            }
+        }else{
+            $sql = "INSERT INTO preguntas_sugerida (pregunta, respuesta, opcion1, opcion2, opcion3, categoria) VALUES ('$pregunta', '$respuesta', '$opcion1', '$opcion2', '$opcion3', '$categoria')";
+            $this->database->execute($sql);
+        }
+    }
 }
