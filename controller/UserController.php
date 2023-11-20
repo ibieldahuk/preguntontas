@@ -63,20 +63,27 @@ class UserController {
         $nombre = isset($_POST["nombre"]) ? $_POST["nombre"] : "";
         $apellido = isset($_POST["apellido"]) ? $_POST["apellido"] : "";
         $fechaNac = isset($_POST["fechaNacimiento"]) ? $_POST["fechaNacimiento"] : "";
+        $latitud = isset($_POST["latitud"]) ? $_POST["latitud"] : "";
+        $longitud = isset($_POST["longitud"]) ? $_POST["longitud"] : "";
         $genero = isset($_POST["sexo"]) ? $_POST["sexo"] : "";
         $fotoPerfil = isset($_FILES["file"]) ? $_FILES["file"] : "";
         $email = isset($_POST["email"]) ? $_POST["email"] : "";
         $usuario= isset($_POST["usuario"]) ? $_POST["usuario"] : "";
         $contraseña= isset($_POST["contraseña"]) ? $_POST["contraseña"] : "";
-        
-        if($this->userModel->register($nombre, $apellido, $fechaNac, $genero, $email, $usuario,$contraseña, $fotoPerfil)){
-            $this->enviarMailConfirmacion($nombre, $email);
-            header("location:RenderLogin");
-            exit();
+        $repiteContraseña = isset($_POST["repiteContraseña"]) ? $_POST["repiteContraseña"] : "";
+
+        if ($contraseña == $repiteContraseña) {
+            if ($this->userModel->register($nombre, $apellido, $fechaNac, $latitud, $longitud, $genero, $email, $usuario, $contraseña, $fotoPerfil)) {
+                $this->enviarMailConfirmacion($nombre, $email);
+                header("location:RenderLogin");
+                exit();
+            }else {
+                $error = "El usuario ya existe";
+            }
         } else {
-            header("location:RenderRegister?error=INVALID");
-            exit();
+            $error = "Las contraseñas no coinciden";
         }
+        $this->renderer->render("register", ['error' => $error]);
 }
 
     public function cerrarSesion(){

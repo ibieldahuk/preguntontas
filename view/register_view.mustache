@@ -1,50 +1,150 @@
-<script src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyAiq3xISXSZYgkd9GDAOdajy4NK2d3L7dY"></script>
+<script async src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBhfr91aAHNvl8nIqlZK4vU5oM4f7ghH0A&callback=initMap"></script>
 <script>
-    function loadMap() {
+    (g => {
+        var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document,
+                b = window;
+        b = b[c] || (b[c] = {});
+        var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams,
+                u = () => h || (h = new Promise(async (f, n) => {
+                    await (a = m.createElement("script"));
+                    e.set("libraries", [...r] + "");
+                    for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
+                    e.set("callback", c + ".maps." + q);
+                    a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
+                    d[q] = f;
+                    a.onerror = () => h = n(Error(p + " could not load."));
+                    a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+                    m.head.append(a)
+                }));
+        d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n))
+    })({
+        key: "AIzaSyBhfr91aAHNvl8nIqlZK4vU5oM4f7ghH0A",
+        v: "beta"
+        // Add other bootstrap parameters as needed, using camel case.
+        // Use the 'v' parameter to indicate the version to load (alpha, beta, weekly, etc.)
+    });
 
-        var mapOptions = {
-            center:new google.maps.LatLng(-34.6686986,-58.5614947),
-            zoom:12,
-            panControl: false,
-            zoomControl: false,
-            scaleControl: false,
-            mapTypeControl:false,
-            streetViewControl:true,
-            overviewMapControl:true,
-            rotateControl:true,
-            mapTypeId:google.maps.MapTypeId.ROADMAP
-        };
+    let map;
+    let marker;
 
-        var map = new google.maps.Map(document.getElementById("mapa"),mapOptions);
+    async function initMap() {
 
-        var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(-34.6686986,-58.5614947),
-            map: map,
-            draggable:true,
-            icon:'/imagenes/logo_unlam.png'
+        // Mapa: Argentina
+        let position = {lat: -34.0000000, lng: -64.0000000};
+        //@ts-ignore
+        let {Map} = await google.maps.importLibrary("maps");
+
+        map = new Map(document.getElementById("mapa"), {
+            center: position,
+            zoom: 4,
+            mapId: "DEMO_MAP_ID",
+            title: "Argentina"
         });
+    }
+    async function cargarMapaSiInputsEstanCompletos(){
+        let pais = document.getElementById("seleccionar_pais").value;
+        let ciudad = document.getElementById("seleccionar_ciudad").value;
 
-        google.maps.event.addListener(marker, "click", function (event) {
-            var latitude = event.latLng.lat();
-            var longitude = event.latLng.lng();
-            alert( latitude + ', ' + longitude );
+        if(pais.length > 0 && ciudad.length > 0){
+            buscarEnMapa(pais, ciudad);
+        }
+    }
+    function validarBusqueda(){
+        let pais = document.getElementById("seleccionar_pais").value;
+        let ciudad = document.getElementById("seleccionar_ciudad").value;
+        let error_mapa = document.getElementById("error_busqueda_mapa");
+
+        if(pais == "" || ciudad == ""){
+            error_mapa.classList.remove("d-none")
+        } else{
+            error_mapa.classList.add("d-none");
+            buscarEnMapa(pais, ciudad);
+        }
+
+    }
+    async function buscarEnMapa(pais, ciudad) {
+
+        let geocoder = new google.maps.Geocoder();
+
+        geocoder.geocode({ address: pais + ', ' + ciudad }, (results, status) => {
+
+            if (status === 'OK') {
+
+                let latitud = results[0].geometry.location.lat();
+                let longitud = results[0].geometry.location.lng();
+
+                // Guardo el resultado de la busqueda en dos input hidden
+                document.getElementById("latitud").value = latitud;
+                document.getElementById("longitud").value = longitud;
+
+                // Muevo el centro del mapa al nuevo lugar
+                map.setCenter({ lat: latitud, lng: longitud });
+                map.setZoom(12);
+
+                //Creo y pongo el marcador para que se vea en el mapa
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: {lat: latitud, lng: longitud},
+                    title: pais + ', ' + ciudad,
+                })
+            } else {
+                console.error('Error al geocodificar la dirección:', status);
+            }
         });
     }
 
-    //google.maps.event.addDomListener(window, 'load', loadMap);
+    async function mostrarUbicacionUsuario(latitud, longitud){
+
+        document.getElementById("pais_ocultable").classList.add("d-none")
+        document.getElementById("ciudad_ocultable").classList.add("d-none")
+
+        document.getElementById("mapa").classList.remove("d-none");
+
+        let {Map} = await google.maps.importLibrary("maps");
+
+        map.setCenter({ lat: latitud, lng: longitud });
+        map.setZoom(12);
+
+        //Creo y pongo el marcador para que se vea en el mapa
+        marker = new google.maps.Marker({
+            map: map,
+            position: {lat: latitud, lng: longitud},
+            title:  "Marcador ubicado en el mapa",
+        });
+    }
+
+    function validarDatosCargadosPerfil(){
+        let latitud = document.getElementById("latitud").textContent;
+        let longitud = document.getElementById("longitud").textContent;
+
+        console.log("Valores previos a la conversion: --> Latitud: " + latitud + ", Longitud: " + longitud);
+        if(latitud == "" || longitud == ""){
+            validarDatosCargadosPerfil();
+        } else{
+            latitud = parseFloat(latitud);
+            longitud = parseFloat(longitud);
+
+            console.log("Valores luego de la conversion --> Latitud: " + latitud + ", Longitud: " + longitud);
+            mostrarUbicacionUsuario(latitud, longitud);
+        }
+
+    }
 
 </script>
 
 <style>
 
     .fondo{
-        background-image: url("/../public/Fondo3.jpeg");
+        background-image: url("../public/Fondo3.jpeg");
         background-size: 100%;
+    }
+    .d-none{
+        display: none;
     }
 
 </style>
 
-<body class="fondo" onload="loadMap()">
+<body class="fondo" {{#map_is_on}}onload="initMap()" {{/map_is_on}}>
 <div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px' id='band'>
     <h2 class='w3-wide'>Preguntontas</h2>
     <table class='w3-table'>
@@ -61,12 +161,29 @@
                         <input type="date" name="fechaNacimiento" class="w3-input" required>
                     </div>
                     <div class="w3-margin">
-                        <label for="">Seleccione su ubicacion</label>
-                        <div id="mapa" style="width:500px; height:400px;"></div>
+                        <input type="text" id="seleccionar_pais" name="seleccionar_pais" class="form-control" placeholder="Ingrese país"
+                               value="{{#pais}}{{.}}{{/pais}}">
                     </div>
-                    <div class="w3-margin">
-                        <input type="text" placeholder="Ingresa usuario" name="usuario" class="w3-input" required>
+                    <div {{#pais}}onload="cargarMapaSiInputsEstanCompletos()" {{/pais}}></div>
+                    <div class="mb-2">
+                        <input type="text" id="seleccionar_ciudad" name="seleccionar_ciudad" class="form-control" placeholder="Ingrese ciudad"
+                               value="{{#ciudad}}{{.}}{{/ciudad}}">
                     </div>
+                    <div class="mb-2 d-none text-center" id="error_busqueda_mapa">
+                        <p class="alert alert-danger">Uno de los filtros del mapa se encuentra vacio, por favor completalo para que se realice la busqueda</p>
+                    </div>
+                    <div class="mb-2">
+                        <button class="btn btn-primary" type="button" onclick="validarBusqueda()">Buscar en el mapa</button>
+                    </div>
+                    <div class="mb-2">
+                        <div class="" style="width: auto;height: 300px;" id="mapa">
+                        </div>
+                    </div>
+                    <div>
+                        <input type="hidden" id="latitud" name="latitud" value="{{#latitud}}{{.}}{{/latitud}}">
+                        <input type="hidden" id="longitud" name="longitud" value="{{#longitud}}{{.}}{{/longitud}}">
+                    </div>
+
 
                 </div>
 
@@ -86,6 +203,9 @@
                         <input type="email" placeholder="Ingresa Email" name="email" class="w3-input" required>
                     </div>
                     <div class="w3-margin">
+                        <input type="text" placeholder="Ingresa usuario" name="usuario" class="w3-input" required>
+                    </div>
+                    <div class="w3-margin">
                         <input type="password" placeholder="Ingresa Contraseña" name="contraseña" class="w3-input" required>
                     </div>
                     <div class="w3-margin">
@@ -100,7 +220,7 @@
                 <br>
                 <button class="w3-button w3-round-large w3-teal" type="submit">Registrar</button>
                 {{#error}}
-                    <div class="w3-red w3-padding-16 w3-margin" style="font-size: large">El usuario ya existe</div>
+                    <div class="w3-red w3-padding-16 w3-margin" style="font-size: large">{{error}}</div>
                 {{/error}}
             </div>
         </form>

@@ -1,11 +1,77 @@
+<script async src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBhfr91aAHNvl8nIqlZK4vU5oM4f7ghH0A&callback=initMap"></script>
+<script>
+    (g => {
+        var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document,
+                b = window;
+        b = b[c] || (b[c] = {});
+        var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams,
+                u = () => h || (h = new Promise(async (f, n) => {
+                    await (a = m.createElement("script"));
+                    e.set("libraries", [...r] + "");
+                    for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
+                    e.set("callback", c + ".maps." + q);
+                    a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
+                    d[q] = f;
+                    a.onerror = () => h = n(Error(p + " could not load."));
+                    a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+                    m.head.append(a)
+                }));
+        d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n))
+    })({
+        key: "AIzaSyBhfr91aAHNvl8nIqlZK4vU5oM4f7ghH0A",
+        v: "beta"
+        // Add other bootstrap parameters as needed, using camel case.
+        // Use the 'v' parameter to indicate the version to load (alpha, beta, weekly, etc.)
+    });
 
-<div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px' id='band'>
+    let map;
+    let marker;
+
+    async function initMap() {
+        // Mapa: Argentina
+        let latitud = parseFloat(document.getElementById("latitud").value);
+        let longitud = parseFloat(document.getElementById("longitud").value);
+
+        let position = { lat: latitud, lng: longitud };
+        //@ts-ignore
+        let { Map } = await google.maps.importLibrary("maps");
+
+        map = new Map(document.getElementById("mapa"), {
+            center: position,
+            zoom: 12,  // Puedes ajustar el nivel de zoom según tus preferencias
+            mapId: "DEMO_MAP_ID",
+            title: "Ubicación del Usuario"
+        });
+
+        // Crear y colocar el marcador en las coordenadas almacenadas
+        marker = new google.maps.Marker({
+            map: map,
+            position: position,
+            title: "Ubicación del Usuario",
+        });
+    }
+    document.addEventListener("DOMContentLoaded", () => {
+        initMap();
+    });
+
+
+</script>
+
+<div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px'>
     <h1 class='w3-wide'>Preguntontas</h1>
 <ol>
         {{#perfil}}
             <h2>Usuario: {{usuario}}</h2>
             <h3>Puntaje maximo: {{record}}</h3>
             <h3>Puntos totales: {{puntosTotales}}</h3>
+            <div class="mb-2">
+                <div class="" style="width: auto;height: 300px;" id="mapa">
+                </div>
+            </div>
+            <div>
+                <input type="hidden" id="latitud" name="latitud" value="{{#latitud}}{{.}}{{/latitud}}">
+                <input type="hidden" id="longitud" name="longitud" value="{{#longitud}}{{.}}{{/longitud}}">
+            </div>
         {{/perfil}}
 </ol>
 </div>

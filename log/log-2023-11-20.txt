@@ -1,0 +1,25 @@
+[2023-11-20][INFO]Select * from Usuario where usuario = 'wada' OR email = 'guadapfernandez@hotmail.com'
+[2023-11-20][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' OR email = 'guadapfernandez@hotmail.com'
+[2023-11-20][INFO]Ejecutando query: INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `latitud`, `longitud`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`) 
+                VALUES ( 'Guadalupe', 'Fernandez', '1989-12-13','-34.6558611', '-58.6167212', 'Femenino', 'guadapfernandez@hotmail.com','wada', '1234', 'public/fotosPerfil/imagen_19.jpg' )
+[2023-11-20][INFO]Select * from Usuario where usuario = 'wada' OR email = 'guadapfernandez@hotmail.com'
+[2023-11-20][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' OR email = 'guadapfernandez@hotmail.com'
+[2023-11-20][INFO]Ejecutando query: INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `latitud`, `longitud`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`) 
+                VALUES ( 'Guadalupe', 'Fernandez', '1989-12-13','-34.6440676', '-58.59564279999999', 'Femenino', 'guadapfernandez@hotmail.com','wada', '1234', 'public/fotosPerfil/imagen_78.jpg' )
+[2023-11-20][INFO]Select * from Usuario where usuario = 'guada' OR email = 'guadapfernandez@gmail.com'
+[2023-11-20][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' OR email = 'guadapfernandez@gmail.com'
+[2023-11-20][INFO]Select * from Usuario where usuario = 'wada' AND contraseña = '1234'
+[2023-11-20][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' AND contraseña = '1234'
+[2023-11-20][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-20][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-20][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-20][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-20][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-20][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-20][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-20][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-20][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-20][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-20][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-20][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-20][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 

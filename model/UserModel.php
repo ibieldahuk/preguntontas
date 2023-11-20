@@ -15,7 +15,7 @@ class UserModel {
         return sizeof($result) == 1;
     }
 
-    public function register($nombre, $apellido, $fechaNac, $genero, $email, $usuario,$contraseña, $fotoPerfil){
+    public function register($nombre, $apellido, $fechaNac, $latitud, $longitud, $genero, $email, $usuario,$contraseña, $fotoPerfil){
         $sql = "Select * from Usuario where usuario = '$usuario' OR email = '$email'";
         Logger::info($sql);
         $result=$this->database->query($sql);
@@ -23,8 +23,8 @@ class UserModel {
             return false;
            }else{
                $fotoGuardada = $this->guardarFoto($fotoPerfil);
-               $sql = "INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`) 
-                VALUES ( '" . $nombre . "', '" . $apellido . "', '" . $fechaNac . "', '" . $genero . "', '" . $email . "','" . $usuario . "', '" . $contraseña .  "', '" . $fotoGuardada . "' )";
+               $sql = "INSERT INTO `Usuario`( `nombre`, `apellido`, `fechaNac`, `latitud`, `longitud`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`) 
+                VALUES ( '" . $nombre . "', '" . $apellido . "', '" . $fechaNac . "','" . $latitud . "', '" . $longitud . "', '" . $genero . "', '" . $email . "','" . $usuario . "', '" . $contraseña .  "', '" . $fotoGuardada . "' )";
                $this->database->execute($sql);
                return true;
         }
