@@ -39,7 +39,8 @@ class EditorController
         $datos["preguntas"] = $this->editorModel->obtenerPreguntasOficiales();
         $datos["metodos"] = [
             array("metodo" => "renderEditarPregunta", "texto" => "Editar"),
-            array("metodo" => "borrarPregunta", "texto" => "Borrar")
+            array("metodo" => "borrarPregunta", "texto" => "Borrar"),
+            array("metodo" => "verDetalles", "texto" => "Ver respuestas")
             ];
         $this->renderer->render("gestor_preguntas", $datos);
     }
@@ -97,6 +98,36 @@ class EditorController
         $idPregunta = $_GET["id"];
         $this->editorModel->oficializarPregunta($idPregunta);
         header("location:/editor/verPreguntasSugeridas");
+    }
+
+    public function verDetalles()
+    {
+        $idPregunta = $_GET["id"];
+        $datos["pregunta"] = $this->editorModel->obtenerPreguntaPorId($idPregunta);
+        $datos["respuesta_correcta"] = $this->editorModel->obtenerRespuestaCorrecta($idPregunta);
+
+        $rtasIncorr = $this->editorModel->obtenerRespuestasIncorrectas($idPregunta);
+        $orden = 1;
+        $respuestasIncorrectas = [];
+        foreach ($rtasIncorr as $respuesta)
+        {
+            $respuesta["2"] = "$orden";
+            $respuesta["orden"] = "$orden";
+            $respuestasIncorrectas[] = $respuesta;
+            $orden++;
+        }
+        $datos["respuestas_incorrectas"] = $respuestasIncorrectas;
+
+        $this->renderer->render("detalles_pregunta", $datos);
+    }
+
+    public function editarRespuestas()
+    {
+        $this->editorModel->editarRespuesta($_POST["id-correcta"], $_POST["opcion-correcta"], "SI");
+        $this->editorModel->editarRespuesta($_POST["id-incorrecta-1"], $_POST["opcion-incorrecta-1"], "NO");
+        $this->editorModel->editarRespuesta($_POST["id-incorrecta-2"], $_POST["opcion-incorrecta-2"], "NO");
+        $this->editorModel->editarRespuesta($_POST["id-incorrecta-3"], $_POST["opcion-incorrecta-3"], "NO");
+        header("location:/editor/renderGestionarPreguntas");
     }
 
 }

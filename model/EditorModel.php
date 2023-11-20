@@ -37,8 +37,19 @@ class EditorModel
     {
         $sql = "SELECT `id`, `pregunta` FROM `preguntas` WHERE `id` = $idPregunta;";
         $resultado = $this->database->query($sql);
-        Logger::info("obtenerPreguntaPorId() devuelve: " . $resultado);
         return $resultado;
+    }
+
+    public function obtenerRespuestasIncorrectas($idPregunta)
+    {
+        $sql = "SELECT `id`, `opcion` FROM `respuestas` WHERE `id_preguntas` = $idPregunta AND opcioncorrecta = 'NO';";
+        return $this->database->query($sql);
+    }
+
+    public function obtenerRespuestaCorrecta($idPregunta)
+    {
+        $sql = "SELECT `id`, `opcion` FROM `respuestas` WHERE `id_preguntas` = $idPregunta AND opcioncorrecta = 'SI';";
+        return $this->database->query($sql);
     }
 
     public function altaPregunta($pregunta, $respuestaCorrecta, $respuestaIncorrecta1, $respuestaIncorrecta2, $respuestaIncorrecta3)
@@ -75,7 +86,7 @@ class EditorModel
 
     public function editarRespuesta($idRespuesta, $opcion, $opcionCorrecta)
     {
-        $sql = "UPDATE `respuestas` SET `opcion` = '$opcion', `opcioncorrecta` = '$opcionCorrecta' WHERE `ìd` = $idRespuesta";
+        $sql = "UPDATE `respuestas` SET `opcion` = '$opcion', `opcioncorrecta` = '$opcionCorrecta' WHERE `id` = $idRespuesta";
         return $this->database->execute($sql);
     }
 
