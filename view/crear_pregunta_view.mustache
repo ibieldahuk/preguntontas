@@ -1,9 +1,33 @@
-<h1>Crear pregunta</h1>
-<form action="/editor/crearPregunta" method="post">
-    <input type="text" name="pregunta">
-    <input type="text" name="respuestaCorrecta">
-    <input type="text" name="respuestaIncorrecta1">
-    <input type="text" name="respuestaIncorrecta2">
-    <input type="text" name="respuestaIncorrecta3">
-    <input type="submit" value="Crear">
-</form>
+<div class="container mt-5">
+    <h1>Crear pregunta</h1>
+
+    <form action="/editor/crearPregunta" method="post" class="mt-3">
+        <div class="mb-3">
+            <label for="pregunta" class="form-label">Pregunta</label>
+            <input type="text" class="form-control" id="pregunta" name="pregunta" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="respuestaCorrecta" class="form-label">Respuesta Correcta</label>
+            <input type="text" class="form-control" id="respuestaCorrecta" name="respuestaCorrecta" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="respuestaIncorrecta1" class="form-label">Respuesta Incorrecta 1</label>
+            <input type="text" class="form-control" id="respuestaIncorrecta1" name="respuestaIncorrecta1" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="respuestaIncorrecta2" class="form-label">Respuesta Incorrecta 2</label>
+            <input type="text" class="form-control" id="respuestaIncorrecta2" name="respuestaIncorrecta2" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="respuestaIncorrecta3" class="form-label">Respuesta Incorrecta 3</label>
+            <input type="text" class="form-control" id="respuestaIncorrecta3" name="respuestaIncorrecta3" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Crear</button>
+    </form>
+
+</div>

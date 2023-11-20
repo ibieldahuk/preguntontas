@@ -133,34 +133,27 @@
 </script>
 
 <style>
-
-    .fondo{
-        background-image: url("../public/Fondo3.jpeg");
-        background-size: 100%;
-    }
     .d-none{
         display: none;
     }
 
 </style>
 
-<body class="fondo" {{#map_is_on}}onload="initMap()" {{/map_is_on}}>
-<div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px' id='band'>
-    <h2 class='w3-wide'>Preguntontas</h2>
-    <table class='w3-table'>
-    <h1>REGISTER</h1>
+<body {{#map_is_on}}onload="initMap()" {{/map_is_on}}>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Registro</h1>
         <form action="/user/register" method="post" enctype="multipart/form-data">
-            <div class="w3-row-padding">
-                <div class="w3-half">
-                    <div class="w3-margin">
-                        <input type="text" placeholder="Ingresa nombre" name="nombre" class="w3-input" required>
+            <div class="row">
+                <!-- Columna 1 -->
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Ingresa nombre" name="nombre" required>
                     </div>
-
-                    <div class="w3-margin">
+                    <div class="mb-3">
                         <label>Año de nacimiento</label>
-                        <input type="date" name="fechaNacimiento" class="w3-input" required>
+                        <input type="date" class="form-control" name="fechaNacimiento" required>
                     </div>
-                    <div class="w3-margin">
+                    <div class="mb-3">
                         <input type="text" id="seleccionar_pais" name="seleccionar_pais" class="form-control" placeholder="Ingrese país"
                                value="{{#pais}}{{.}}{{/pais}}">
                     </div>
@@ -183,47 +176,46 @@
                         <input type="hidden" id="latitud" name="latitud" value="{{#latitud}}{{.}}{{/latitud}}">
                         <input type="hidden" id="longitud" name="longitud" value="{{#longitud}}{{.}}{{/longitud}}">
                     </div>
-
-
                 </div>
 
-                <div class="w3-half">
-                    <div class="w3-margin">
-                        <input type="text" placeholder="Ingresa apellido" name="apellido" class="w3-input" required>
+                <!-- Columna 2 -->
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Ingresa apellido" name="apellido" required>
                     </div>
-                    <div class="w3-margin">
-                        <select name="sexo" id="sexo" class="w3-select">
-                            <option value="" disabled selected>Seleccione un Genero</option>
+                    <div class="mb-3">
+                        <select class="form-select" name="sexo" id="sexo" required>
+                            <option value="" disabled selected>Seleccione un Género</option>
                             <option value="Masculino">Masculino</option>
                             <option value="Femenino">Femenino</option>
                             <option value="Otro">Prefiero no decirlo</option>
                         </select>
                     </div>
-                    <div class="w3-margin">
-                        <input type="email" placeholder="Ingresa Email" name="email" class="w3-input" required>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Ingresa Email" name="email" required>
                     </div>
-                    <div class="w3-margin">
-                        <input type="text" placeholder="Ingresa usuario" name="usuario" class="w3-input" required>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Ingresa usuario" name="usuario" required>
                     </div>
-                    <div class="w3-margin">
-                        <input type="password" placeholder="Ingresa Contraseña" name="contraseña" class="w3-input" required>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" placeholder="Ingresa Contraseña" name="contraseña" required>
                     </div>
-                    <div class="w3-margin">
-                        <input type="password" placeholder="Repita la contraseña" name="repiteContraseña" class="w3-input" required>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" placeholder="Repita la contraseña" name="repiteContraseña" required>
                     </div>
                 </div>
-                <div class="w3-container w3-center w3-margin-top">
-                    <label>Foto de perfil</label>
-                </div>
-                <input type="file" name="file" required>
-                <br>
-                <br>
-                <button class="w3-button w3-round-large w3-teal" type="submit">Registrar</button>
-                {{#error}}
-                    <div class="w3-red w3-padding-16 w3-margin" style="font-size: large">{{error}}</div>
-                {{/error}}
             </div>
+
+            <div class="mb-3">
+                <label class="form-label">Foto de perfil</label>
+                <input type="file" class="form-control" name="file" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Registrar</button>
+
+            {{#error}}
+                <div class="mt-3 alert alert-danger">{{error}}</div>
+            {{/error}}
         </form>
-    </table>
-</div>
+    </div>
 </body>

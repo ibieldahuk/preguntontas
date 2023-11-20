@@ -1,47 +1,46 @@
 <style>
-    .fondo{
-        background-image: url("/../public/FondoGral.jpeg");
-        background-size: 100%;
+    .mt-5 {
+        margin-top: 13rem!important;
     }
-
 </style>
-
-<body class="fondo">
-<div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px' id='band'>
-        {{#completo}}
+<body>
+<div class="container mt-5">
+    {{#completo}}
+        <div class="alert alert-success" role="alert">
             {{completo}}
-        {{/completo}}
-    <table class='w3-table'>
-    <h1>Lobby</h1>
-        {{#usuario}}
-        <h2>Nombre del tipito: {{usuario}}</h2>
-        <h2>Puntaje maximo alcanzado:
-            {{record}}
-            pts</h2>
-        <h2><a href="/juego/partida">Nueva partida</a></h2>
-        <h2><a href="/juego/ranking">Ver Ranking</a></h2>
-        <h2><a href="/juego/sugerir">Sugerir una pregunta</a></h2>
-        {{/usuario}}
-        <hr>
-        {{#editor}}
-        <h1>Lobby EDITOR</h1>
-        <h2><a href="/editor/verPreguntasSugeridas">Chequear las preguntas sugeridas por usuarios (alta, baja, modificacion)</a></h2>
-        <h2><a href="/editor/renderCrearPregunta">Nueva pregunta</a></h2>
-        <h2><a href="/editor/renderGestionarPreguntas">Gestor de preguntas</a></h2>
-        <h2><a href="/editor/verPreguntasReportadas">Chequear las preguntas reportadas por usuarios</a></h2>
+        </div>
+    {{/completo}}
+
+    {{#usuario}}
+        <h2 class="mt-5">Nombre: {{usuario}}</h2>
+        <h2>Puntaje máximo alcanzado: {{record}} pts</h2>
+        <h2><a href="/juego/partida" class="btn btn-primary">Nueva partida</a></h2>
+        <h2><a href="/juego/ranking" class="btn btn-secondary">Ver Ranking</a></h2>
+        <h2><a href="/juego/sugerir" class="btn btn-info">Sugerir una pregunta</a></h2>
+    {{/usuario}}
+
+    <hr>
+
+    {{#editor}}
+        <h1 class="mt-4">Lobby EDITOR</h1>
+        <h2><a href="/editor/verPreguntasSugeridas" class="btn btn-primary">Chequear las preguntas sugeridas por usuarios</a></h2>
+        <h2><a href="/editor/renderCrearPregunta" class="btn btn-secondary">Nueva pregunta</a></h2>
+        <h2><a href="/editor/renderGestionarPreguntas" class="btn btn-info">Gestor de preguntas</a></h2>
+        <h2><a href="/editor/verPreguntasReportadas" class="btn btn-danger">Chequear las preguntas reportadas por usuarios</a></h2>
 
         <hr>
-        {{/editor}}
-        {{#admin}}
-        <h1>Lobby ADMIN</h1>
-            <a href="/admin/renderCantidadJugadores">Cantidad total jugadores</a> <br>
-            <a href="/admin/renderCantidadJugadoresNuevos">Cantidad de jugadores nuevos</a> <br>
-            <a href="/admin/renderCantidadPreguntas">Cantidad total de Preguntas</a> <br>
-            <a href="/admin/renderCantidadJugadoresSexo">Cantidad de jugadores por sexo</a> <br>
-            <a href="/admin/renderCantidadJugadoresEdad">Cantidad de jugadores por edad</a> <br>
-            <a href="/admin/renderCantidadPartidasJugadas">Cantidad de partidas jugadas</a> <br>
-            <a href="/admin/renderCantidadPreguntasCorrectasPorUsuario">Cantidad de preguntas correctas por usuario</a>
-        {{/admin}}
-    </table>
+    {{/editor}}
+
+    {{#admin}}
+        <h1 class="mt-4">Lobby ADMIN</h1>
+        <a href="/admin/renderCantidadJugadores" class="btn btn-primary my-2">Cantidad total jugadores</a> <br>
+        <a href="/admin/renderCantidadJugadoresNuevos" class="btn btn-secondary my-2">Cantidad de jugadores nuevos</a> <br>
+        <a href="/admin/renderCantidadPreguntas" class="btn btn-info my-2">Cantidad total de Preguntas</a> <br>
+        <a href="/admin/renderCantidadJugadoresSexo" class="btn btn-danger my-2">Cantidad de jugadores por sexo</a> <br>
+        <a href="/admin/renderCantidadJugadoresEdad" class="btn btn-warning my-2">Cantidad de jugadores por edad</a> <br>
+        <a href="/admin/renderCantidadPartidasJugadas" class="btn btn-success my-2">Cantidad de partidas jugadas</a> <br>
+        <a href="/admin/renderCantidadPreguntasCorrectasPorUsuario" class="btn btn-primary my-2">Cantidad de preguntas correctas por usuario</a>
+    {{/admin}}
+
 </div>
 </body>

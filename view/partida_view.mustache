@@ -45,39 +45,43 @@
 
     .racha{
         color: white;
-        
+
     }
 </style>
 
-<body class="fondo">
-<div class='w3-container w3-content w3-center w3-padding-64' style='max-width:800px' id='band'>
-    <h1 class='w3-wide'>Preguntontas</h1>
-    <div class="tarjeta">
-    {{#pregunta}}
-    <div class="pregunta">
-    <h2>{{Pregunta}}</h2>
-    </div>
-    {{/pregunta}}
-    {{#respuestas}}
-        <div class="opciones"><a href="/juego/respuesta/id={{opcioncorrecta}}">
-        <li>{{opcion}}</li></a>
-        </div>
-    {{/respuestas}}
-    {{#check}}
-        {{check}}
-        <h2><a href="/juego/partida">Nueva partida</a></h2>
-    {{/check}}
-    {{#racha}}
-        <div class="racha">Tu racha es de: {{racha}}</div>
-    {{/racha}}
+<body>
+<div class="container mt-5">
+    <h1 class="text-center text-light">Preguntontas</h1>
+    <div class="card text-dark bg-light mx-auto" style="max-width: 800px; border-radius: 20px;">
+        {{#pregunta}}
+            <div class="card-body">
+                <h2 class="card-title">{{Pregunta}}</h2>
+            </div>
+        {{/pregunta}}
+        {{#respuestas}}
+            <a href="/juego/respuesta/id={{opcioncorrecta}}" class="list-group-item list-group-item-action">
+            {{opcion}}
+            </a>
+        {{/respuestas}}
+        {{#check}}
+            <div class="card-body">
+                {{check}}
+                <h2 class="card-text"><a href="/juego/partida" class="btn btn-primary">Nueva partida</a></h2>
+            </div>
+        {{/check}}
+        {{#racha}}
+            <div class="card-body">
+                <p class="card-text">Tu racha es de: {{racha}}</p>
+            </div>
+        {{/racha}}
 
-    {{#idPregunta}}
-        <div class="reporte"><a href="/juego/reportarPregunta/id={{idPregunta}}"><i class="bi bi-exclamation-lg"></i>Reportar pregunta</a>
-        {{#reportar}}
-            <p>Esta pregunta fue reportada</p>
-        {{/reportar}}
-        </div>
-    {{/idPregunta}}
+        {{#idPregunta}}
+            <div class="card-body">
+                <a href="/juego/reportarPregunta/id={{idPregunta}}" class="text-danger"><i class="bi bi-exclamation-lg"></i> Reportar pregunta</a>
+                {{#reportar}}
+                    <p class="card-text">Esta pregunta fue reportada</p>
+                {{/reportar}}
+            </div>
+        {{/idPregunta}}
     </div>
-</div>
 </body>

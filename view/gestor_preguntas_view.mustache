@@ -1,11 +1,15 @@
-<h1>Gestor de preguntas</h1>
-<ul>
-    {{#preguntas}}
-    <li>
-        <p>{{pregunta}}</p>
-        {{#metodos}}
-        <a href="/editor/{{metodo}}/id={{id}}">{{texto}}</a>
-        {{/metodos}}
-    </li>
-    {{/preguntas}}
-</ul>
+<div class="container mt-5">
+    <h1>Gestor de preguntas</h1>
+
+    <ul class="list-group">
+        {{#preguntas}}
+            <li class="list-group-item">
+                <p>{{pregunta}}</p>
+                {{#metodos}}
+                    <a href="/editor/{{metodo}}/id={{id}}" class="btn btn-primary">{{texto}}</a>
+                {{/metodos}}
+            </li>
+        {{/preguntas}}
+    </ul>
+
+</div>

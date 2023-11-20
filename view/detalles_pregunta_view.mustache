@@ -1,20 +1,33 @@
-<h1>Detalles de la pregunta</h1>
-<h2>Pregunta</h2>
-{{#pregunta}}
-<p>{{pregunta}}</p>
-{{/pregunta}}
-<section>
-<form action="/editor/editarRespuestas" method="post">
-    <h2>Respuesta correcta</h2>
-    {{#respuesta_correcta}}
-    <input type="hidden" name="id-correcta" value="{{id}}">
-    <input type="text" name="opcion-correcta" value="{{opcion}}">
-    {{/respuesta_correcta}}
-    <h2>Respuestas incorrectas</h2>
-    {{#respuestas_incorrectas}}
-    <input type="hidden" name="id-incorrecta-{{orden}}" value="{{id}}">
-    <input type="text" name="opcion-incorrecta-{{orden}}" value="{{opcion}}">
-    {{/respuestas_incorrectas}}
-    <input type="submit" value="Editar">
-</form>
-</section>
+<div class="container mt-5">
+    <h1>Detalles de la pregunta</h1>
+
+    <h2>Pregunta</h2>
+    {{#pregunta}}
+        <p>{{pregunta}}</p>
+    {{/pregunta}}
+
+    <section class="mt-3">
+        <form action="/editor/editarRespuestas" method="post">
+
+            <div class="mb-3">
+                <h2>Respuesta correcta</h2>
+                {{#respuesta_correcta}}
+                    <input type="hidden" name="id-correcta" value="{{id}}">
+                    <input type="text" class="form-control" name="opcion-correcta" value="{{opcion}}">
+                {{/respuesta_correcta}}
+            </div>
+
+            <div class="mb-3">
+                <h2>Respuestas incorrectas</h2>
+                {{#respuestas_incorrectas}}
+                    <input type="hidden" name="id-incorrecta-{{orden}}" value="{{id}}">
+                    <input type="text" class="form-control" name="opcion-incorrecta-{{orden}}" value="{{opcion}}">
+                {{/respuestas_incorrectas}}
+            </div>
+
+            <button type="submit" class="btn btn-primary">Editar</button>
+
+        </form>
+    </section>
+
+</div>

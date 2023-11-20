@@ -1,0 +1,198 @@
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-21][INFO]Select * from Usuario where usuario = 'editor' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'editor' AND contraseña = '1234'
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' AND contraseña = '1234'
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-21][INFO]Select * from Usuario where usuario = 'editor' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'editor' AND contraseña = '1234'
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' AND contraseña = '1234'
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' AND contraseña = '1234'
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'editor' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'editor' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas` WHERE `esSugerida` = TRUE;
+[2023-11-21][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas` WHERE `estaReportada` = TRUE;
+[2023-11-21][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-21][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas` WHERE `esSugerida` = TRUE;
+[2023-11-21][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas` WHERE `estaReportada` = TRUE;
+[2023-11-21][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-21][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas` WHERE `estaReportada` = TRUE;
+[2023-11-21][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-21][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas` WHERE `estaReportada` = TRUE;
+[2023-11-21][INFO]Ejecutando query: SELECT `id`, `pregunta` FROM `preguntas`;
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' AND contraseña = '1234'
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'wada' 
+[2023-11-21][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM `preguntas`

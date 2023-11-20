@@ -1,19 +1,14 @@
-<style>
-    .fondo{
-        background-image: url("/../public/Fondo3.jpeg");
-        background-size: 100%;
-    }
 
-</style>
-
-<body class="fondo">
-<h1>¡Jugá y respondé las <span class="enfasis">preguntontas</span>!</h1>
-<section class="juego">
-    <h2 class="pregunta">{{pregunta}}</h2>
-    <div class="opciones">
-        {{#opciones}}
-        <p class="opcion">{{.}}</p>
-        {{/opciones}}
-    </div>
-</section>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center mt-5">¡Jugá y respondé las <span class="text-danger">preguntontas</span>!</h1>
+    <section class="mt-5">
+        <h2 class="h4">{{pregunta}}</h2>
+        <div class="mt-4">
+            {{#opciones}}
+                <p class="lead">{{.}}</p>
+            {{/opciones}}
+        </div>
+    </section>
+</div>
 </body>
