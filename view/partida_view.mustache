@@ -1,6 +1,5 @@
 <style>
     .fondo{
-        background-image: url("/../public/Fondo3.jpeg");
         background-size: 100%;
     }
 
@@ -17,12 +16,8 @@
         background-color: rgba(255,255,255,1);
         border-radius: 10px;
         font-size: 20px;
-    }
-    .pregunta{
-        background-color: rgba(255,255,255,1);
-        border-radius: 10px;
-        padding: 50px;
-        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 10px;
     }
     .opciones:hover{
         background-color: rgba(0,0,0,0.5);
@@ -30,28 +25,11 @@
         box-shadow: 1px 1px 3px black;
         color: white;
     }
-    .tarjeta{
-        background-color: rgba(0,0,0,0.8);
-        padding: 50px;
-        border-radius: 20px;
-    }
-    .reporte{
-        color: rgba(255, 0, 0, 0.8);
-        margin-top: 20px;
-    }
-    .reporte:hover{
-        text-decoration: underline;
-    }
-
-    .racha{
-        color: white;
-
-    }
 </style>
 
 <body>
 <div class="container mt-5">
-    <h1 class="text-center text-light">Preguntontas</h1>
+    <h1 class="text-center">Preguntontas</h1>
     <div class="card text-dark bg-light mx-auto" style="max-width: 800px; border-radius: 20px;">
         {{#pregunta}}
             <div class="card-body">
@@ -59,7 +37,7 @@
             </div>
         {{/pregunta}}
         {{#respuestas}}
-            <a href="/juego/respuesta/id={{opcioncorrecta}}" class="list-group-item list-group-item-action">
+            <a href="/juego/respuesta/id={{opcioncorrecta}}" class="list-group-item list-group-item-action opciones">
             {{opcion}}
             </a>
         {{/respuestas}}
