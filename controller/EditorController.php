@@ -34,7 +34,7 @@ class EditorController
         }
     }
 
-    public function renderBorrarPregunta()
+    public function renderGestionarPreguntas()
     {
         $datos["preguntas"] = $this->editorModel->obtenerPreguntasOficiales();
         $datos["metodos"] = [
@@ -65,8 +65,8 @@ class EditorController
             array("metodo" => "borrarPregunta", "texto" => "Borrar")
         ];
         $this->renderer->render("gestor_preguntas", $datos);
-        $datos["preguntas"] = $this->editorModel->obtenerPreguntas();
-        $this->renderer->render("borrar_pregunta", $datos);
+        #$datos["preguntas"] = $this->editorModel->obtenerPreguntas();
+        #$this->renderer->render("borrar_pregunta", $datos);
     }
 
     public function borrarPregunta()
