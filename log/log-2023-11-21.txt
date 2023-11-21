@@ -196,3 +196,15 @@
 [2023-11-21][INFO]Ejecutando query: SELECT * FROM `preguntas`
 [2023-11-21][INFO]Ejecutando query: SELECT * FROM `preguntas`
 [2023-11-21][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-21][INFO]Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: Select * from Usuario where usuario = 'admin' AND contraseña = '1234'
+[2023-11-21][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-21][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-21][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-21][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-21][INFO]Ejecutando query: SELECT * FROM `preguntas`
+[2023-11-21][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-21][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-21][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2
+[2023-11-21][INFO]Ejecutando query: SELECT *  FROM `usuario` WHERE id > 2

@@ -8,21 +8,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <body>
 
 <!-- Navbar -->
-<div class="navbar navbar-expand-lg fixed-top bg-black">
-    <div class="container-fluid justify-content-start">
-        <a href="/" class="navbar-brand ms-2">Preguntontas</a>
-        <a href="/user/renderLogin" class="nav-item me-2">Iniciar Sesion</a>
-        <a href="/user/cerrarSesion" class="nav-item ms-2">Cerrar Sesion</a>
-    </div>
-</div>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
         <!-- Nombre de la aplicación -->
-        <a class="navbar-brand" href="#">Preguntontas</a>
+        <a class="navbar-brand" href="/user/home">Preguntontas</a>
 
         <!-- Botón de hamburguesa para pantallas pequeñas -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,15 +24,17 @@
         <!-- Menú de navegación -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <!-- Botón de Iniciar Sesión -->
-                <li class="nav-item">
-                    <a class="nav-link" href="/user/renderLogin">Iniciar Sesión</a>
-                </li>
+                {{#usuarioLogueado}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/user/cerrarSesion">Cerrar Sesión</a>
+                    </li>
+                {{/usuarioLogueado}}
+                {{^usuarioLogueado}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/user/renderLogin">Iniciar Sesión</a>
+                    </li>
+                {{/usuarioLogueado}}
             </ul>
         </div>
     </div>
 </nav>
-
-
-<!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
