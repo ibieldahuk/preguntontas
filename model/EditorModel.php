@@ -74,8 +74,8 @@ class EditorModel
 
     public function borrarPregunta($idPregunta)
     {
-        $sql = "DELETE FROM `preguntas` WHERE `id` = $idPregunta";
-        $this->database->execute($sql);
+        $this->database->execute("DELETE FROM `respuestas` WHERE `id_preguntas` = $idPregunta");
+        $this->database->execute("DELETE FROM `preguntas` WHERE `id` = $idPregunta");
     }
 
     public function editarPregunta($idPregunta, $pregunta)
