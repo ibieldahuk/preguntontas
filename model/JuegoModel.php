@@ -106,8 +106,8 @@ class JuegoModel
 
     public function reportarPregunta($id){
         $sql = "UPDATE preguntas
-                set reportada = TRUE
-                where ID=$id";
+                SET `estaReportada` = TRUE
+                where `ID`=$id";
         $this->database->execute($sql);
     }
 
@@ -257,14 +257,21 @@ class JuegoModel
     }
 
     public function sugerirPregunta($pregunta, $respuesta, $opcion1, $opcion2, $opcion3, $categoria){
+        /*
         if($opcion2 == ""){
             if($opcion3 == "") {
-                $sql = "INSERT INTO preguntas_sugerida (pregunta, respuesta, opcion1, categoria) VALUES ('$pregunta', '$respuesta', '$opcion1', '$categoria')";
+                $sql = "INSERT INTO preguntas_sugerida (`pregunta`, `respuesta`, `opcion1`, `categoria`) VALUES ('$pregunta', '$respuesta', '$opcion1', '$categoria')";
                 $this->database->execute($sql);
             }
         }else{
-            $sql = "INSERT INTO preguntas_sugerida (pregunta, respuesta, opcion1, opcion2, opcion3, categoria) VALUES ('$pregunta', '$respuesta', '$opcion1', '$opcion2', '$opcion3', '$categoria')";
+            $sql = "INSERT INTO preguntas_sugerida (`pregunta`, `respuesta`, `opcion1`, `opcion2`, `opcion3`, `categoria`) VALUES ('$pregunta', '$respuesta', '$opcion1', '$opcion2', '$opcion3', '$categoria')";
             $this->database->execute($sql);
         }
+        */
+        $idPregunta = $this->database->insertMasId("INSERT INTO preguntas (`pregunta`, `categoria`, `esSugerida`) VALUES ('$pregunta', '$categoria', TRUE);");
+        $this->database->execute("INSERT INTO respuestas (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES ($idPregunta, '$respuesta', 'SI');");
+        $this->database->execute("INSERT INTO respuestas (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES ($idPregunta, '$opcion1', 'NO');");
+        $this->database->execute("INSERT INTO respuestas (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES ($idPregunta, '$opcion2', 'NO');");
+        $this->database->execute("INSERT INTO respuestas (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES ($idPregunta, '$opcion3', 'NO');");
     }
 }

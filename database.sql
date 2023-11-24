@@ -42,7 +42,9 @@ CREATE TABLE `preguntas` (
     `qty` int(11) DEFAULT NULL,
     `correctas` int(11) DEFAULT NULL,
     `sharecorrecta` int(11) DEFAULT NULL,
-    `fecha_creacion` timestamp NOT NULL DEFAULT current_timestamp()
+    `fecha_creacion` timestamp NOT NULL DEFAULT current_timestamp(),
+    `esSugerida` TINYINT(1) DEFAULT 0,
+    `estaReportada` TINYINT(1) DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
