@@ -7,27 +7,51 @@
     {{/pregunta}}
 
     <section class="mt-3">
-        <form action="/editor/editarRespuestas" method="post">
 
             <div class="mb-3">
                 <h2>Respuesta correcta</h2>
                 {{#respuesta_correcta}}
-                    <input type="hidden" name="id-correcta" value="{{id}}">
-                    <input type="text" class="form-control" name="opcion-correcta" value="{{opcion}}">
+                <div id="respuesta-correcta">
+                    <p>{{opcion}}</p>
+                    <button onclick="editarRespuesta('{{id_preguntas}}', 'respuesta-correcta', '{{id}}', 'SI')">Editar</button>
+                    <!--input type="hidden" name="id-correcta" value="{{id}}">
+                    <input type="text" class="form-control" name="opcion-correcta" value="{{opcion}}"-->
+                </div>
                 {{/respuesta_correcta}}
             </div>
 
             <div class="mb-3">
-                <h2>Respuestas incorrectas</h2>
                 {{#respuestas_incorrectas}}
-                    <input type="hidden" name="id-incorrecta-{{orden}}" value="{{id}}">
-                    <input type="text" class="form-control" name="opcion-incorrecta-{{orden}}" value="{{opcion}}">
+                <div id="respuesta-incorrecta-{{orden}}">
+                                    <p>{{opcion}}</p>
+                                    <button onclick="editarRespuesta('{{id_preguntas}}', 'respuesta-incorrecta-{{orden}}', '{{id}}', 'NO')">Editar</button>
+                </div>
                 {{/respuestas_incorrectas}}
             </div>
 
-            <button type="submit" class="btn btn-primary">Editar</button>
-
-        </form>
-    </section>
+        </section>
 
 </div>
+<!--script type="text/javascript" src="public/js/detalles_pregunta.js"></script-->
+<script>
+    function editarRespuesta(idPregunta, idElemento, idRespuesta, esCorrecta) {
+        let contenedor = document.getElementById(idElemento);
+        let respuesta = contenedor.querySelector("p").textContent;
+        let codigo = "<form action=\"/editor/editarRespuesta\" method=\"post\">\n" +
+            "<input type=\"hidden\" name=\"id-pregunta\" value=\"" + idPregunta + "\">\n" +
+            "<input type=\"hidden\" name=\"id-respuesta\" value=\"" + idRespuesta + "\">\n" +
+            "<input type=\"hidden\" name=\"es-correcta\" value=\"" + esCorrecta + "\">\n" +
+            "<input type=\"text\" class=\"form-control\" name=\"opcion\" value=\"" + respuesta + "\">\n" +
+            "<button type=\"submit\" class=\"btn btn-primary\">Confirmar</button>\n" +
+            "<button class=\"btn btn-primary\" onclick=\"cancelarEdicion(\'" + idPregunta + "\',\'" + idElemento + "\',\'" + idRespuesta + "\',\'" + esCorrecta + "\',\'" + respuesta + "\')\">Cancelar</button>\n" +
+            "</form>\n";
+        contenedor.innerHTML = codigo;
+    }
+
+    function cancelarEdicion(idPregunta, idElemento, idRespuesta, esCorrecta, respuesta) {
+        let contenedor = document.getElementById(idElemento);
+        let codigo = "<p>" + respuesta + "</p>" +
+            "<button onclick=\"editarRespuesta(\'" + idPregunta + "\',\'" + idElemento + "\',\'" + idRespuesta + "\',\'" + esCorrecta + "\')\">Editar</button>";
+        contenedor.innerHTML = codigo;
+    }
+</script>

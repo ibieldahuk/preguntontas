@@ -42,13 +42,13 @@ class EditorModel
 
     public function obtenerRespuestasIncorrectas($idPregunta)
     {
-        $sql = "SELECT `id`, `opcion` FROM `respuestas` WHERE `id_preguntas` = $idPregunta AND opcioncorrecta = 'NO';";
+        $sql = "SELECT `id`, `opcion`, `id_preguntas` FROM `respuestas` WHERE `id_preguntas` = $idPregunta AND opcioncorrecta = 'NO';";
         return $this->database->query($sql);
     }
 
     public function obtenerRespuestaCorrecta($idPregunta)
     {
-        $sql = "SELECT `id`, `opcion` FROM `respuestas` WHERE `id_preguntas` = $idPregunta AND opcioncorrecta = 'SI';";
+        $sql = "SELECT `id`, `opcion`, `id_preguntas` FROM `respuestas` WHERE `id_preguntas` = $idPregunta AND opcioncorrecta = 'SI';";
         return $this->database->query($sql);
     }
 
@@ -65,12 +65,6 @@ class EditorModel
             $this->database->execute($sqlRespuestaI2) &&
             $this->database->execute($sqlRespuestaI3);
     }
-
-    /*public function obtenerPreguntas()
-    {
-        $sql = "SELECT `id`, `pregunta` FROM `preguntas`;";
-        return $this->database->query($sql);
-    }*/
 
     public function borrarPregunta($idPregunta)
     {

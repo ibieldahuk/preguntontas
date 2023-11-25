@@ -1,5 +1,7 @@
 <div class="container mt-5">
-    <h1>Gestor de preguntas</h1>
+    {{#titulo}}
+    <h1>{{.}}</h1>
+    {{/titulo}}
 
     <ul class="list-group">
         {{#preguntas}}

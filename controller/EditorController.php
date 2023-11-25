@@ -11,6 +11,65 @@ class EditorController
         $this->renderer = $renderer;
     }
 
+    public function renderGestionarPreguntas()
+    {
+        $datos["titulo"] = "Gestor de preguntas oficiales";
+        $datos["preguntas"] = $this->editorModel->obtenerPreguntasOficiales();
+        $datos["metodos"] = [
+            array("metodo" => "renderEditarPregunta", "texto" => "Editar"),
+            array("metodo" => "borrarPregunta", "texto" => "Borrar"),
+            array("metodo" => "verDetalles", "texto" => "Ver detalles")
+            ];
+        $this->renderer->render("gestor_preguntas", $datos);
+    }
+
+    public function verPreguntasSugeridas()
+    {
+        $datos["titulo"] = "Gestor de preguntas sugeridas";
+        $datos["preguntas"] = $this->editorModel->obtenerPreguntasSugeridas();
+        $datos["metodos"] = [
+            array("metodo" => "borrarPregunta", "texto" => "Descartar"),
+            array("metodo" => "renderEditarPregunta", "texto" => "Modificar"),
+            array("metodo" => "oficializarPregunta", "texto" => "Aceptar"),
+            array("metodo" => "verDetalles", "texto" => "Ver detalles")
+        ];
+        $this->renderer->render("gestor_preguntas", $datos);
+    }
+
+    public function verPreguntasReportadas()
+    {
+        $datos["titulo"] = "Gestor de preguntas reportadas";
+        $datos["preguntas"] = $this->editorModel->obtenerPreguntasReportadas();
+        $datos["metodos"] = [
+            array("metodo" => "renderEditarPregunta", "texto" => "Descartar"),
+            array("metodo" => "renderEditarPregunta", "texto" => "Modificar"),
+            array("metodo" => "borrarPregunta", "texto" => "Borrar"),
+            array("metodo" => "verDetalles", "texto" => "Ver detalles")
+        ];
+        $this->renderer->render("gestor_preguntas", $datos);
+    }
+
+    public function verDetalles()
+    {
+        $idPregunta = $_GET["id"];
+        $datos["pregunta"] = $this->editorModel->obtenerPreguntaPorId($idPregunta);
+        $datos["respuesta_correcta"] = $this->editorModel->obtenerRespuestaCorrecta($idPregunta);
+
+        $rtasIncorr = $this->editorModel->obtenerRespuestasIncorrectas($idPregunta);
+        $orden = 1;
+        $respuestasIncorrectas = [];
+        foreach ($rtasIncorr as $respuesta)
+        {
+            $respuesta["2"] = "$orden";
+            $respuesta["orden"] = "$orden";
+            $respuestasIncorrectas[] = $respuesta;
+            $orden++;
+        }
+        $datos["respuestas_incorrectas"] = $respuestasIncorrectas;
+
+        $this->renderer->render("detalles_pregunta", $datos);
+    }
+
     public function renderCrearPregunta()
     {
         $this->renderer->render("crear_pregunta");
@@ -32,41 +91,6 @@ class EditorController
             header("location:renderCrearPregunta?error=INVALID");
             exit();
         }
-    }
-
-    public function renderGestionarPreguntas()
-    {
-        $datos["preguntas"] = $this->editorModel->obtenerPreguntasOficiales();
-        $datos["metodos"] = [
-            array("metodo" => "renderEditarPregunta", "texto" => "Editar"),
-            array("metodo" => "borrarPregunta", "texto" => "Borrar"),
-            array("metodo" => "verDetalles", "texto" => "Ver respuestas")
-            ];
-        $this->renderer->render("gestor_preguntas", $datos);
-    }
-
-    public function verPreguntasSugeridas()
-    {
-        $datos["preguntas"] = $this->editorModel->obtenerPreguntasSugeridas();
-        $datos["metodos"] = [
-            array("metodo" => "borrarPregunta", "texto" => "Descartar"),
-            array("metodo" => "renderEditarPregunta", "texto" => "Modificar"),
-            array("metodo" => "oficializarPregunta", "texto" => "Aceptar")
-        ];
-        $this->renderer->render("gestor_preguntas", $datos);
-    }
-
-    public function verPreguntasReportadas()
-    {
-        $datos["preguntas"] = $this->editorModel->obtenerPreguntasReportadas();
-        $datos["metodos"] = [
-            array("metodo" => "renderEditarPregunta", "texto" => "Descartar"),
-            array("metodo" => "renderEditarPregunta", "texto" => "Modificar"),
-            array("metodo" => "borrarPregunta", "texto" => "Borrar")
-        ];
-        $this->renderer->render("gestor_preguntas", $datos);
-        #$datos["preguntas"] = $this->editorModel->obtenerPreguntas();
-        #$this->renderer->render("borrar_pregunta", $datos);
     }
 
     public function borrarPregunta()
@@ -100,27 +124,6 @@ class EditorController
         header("location:/editor/verPreguntasSugeridas");
     }
 
-    public function verDetalles()
-    {
-        $idPregunta = $_GET["id"];
-        $datos["pregunta"] = $this->editorModel->obtenerPreguntaPorId($idPregunta);
-        $datos["respuesta_correcta"] = $this->editorModel->obtenerRespuestaCorrecta($idPregunta);
-
-        $rtasIncorr = $this->editorModel->obtenerRespuestasIncorrectas($idPregunta);
-        $orden = 1;
-        $respuestasIncorrectas = [];
-        foreach ($rtasIncorr as $respuesta)
-        {
-            $respuesta["2"] = "$orden";
-            $respuesta["orden"] = "$orden";
-            $respuestasIncorrectas[] = $respuesta;
-            $orden++;
-        }
-        $datos["respuestas_incorrectas"] = $respuestasIncorrectas;
-
-        $this->renderer->render("detalles_pregunta", $datos);
-    }
-
     public function editarRespuestas()
     {
         $this->editorModel->editarRespuesta($_POST["id-correcta"], $_POST["opcion-correcta"], "SI");
@@ -128,6 +131,14 @@ class EditorController
         $this->editorModel->editarRespuesta($_POST["id-incorrecta-2"], $_POST["opcion-incorrecta-2"], "NO");
         $this->editorModel->editarRespuesta($_POST["id-incorrecta-3"], $_POST["opcion-incorrecta-3"], "NO");
         header("location:/editor/renderGestionarPreguntas");
+        exit();
+    }
+
+    public function editarRespuesta()
+    {
+        $this->editorModel->editarRespuesta($_POST["id-respuesta"], $_POST["opcion"], $_POST["es-correcta"]);
+        header("location:/editor/verDetalles/id=" . $_POST["id-pregunta"]);
+        exit();
     }
 
 }
