@@ -63,17 +63,19 @@ class UserController {
         $nombre = isset($_POST["nombre"]) ? $_POST["nombre"] : "";
         $apellido = isset($_POST["apellido"]) ? $_POST["apellido"] : "";
         $fechaNac = isset($_POST["fechaNacimiento"]) ? $_POST["fechaNacimiento"] : "";
-        $latitud = isset($_POST["latitud"]) ? $_POST["latitud"] : "";
-        $longitud = isset($_POST["longitud"]) ? $_POST["longitud"] : "";
+        $pais = isset($_POST["selec-pais"]) ? $_POST["selec-pais"] : "";
+        $ciudad = isset($_POST["selec-ciudad"]) ? $_POST["selec-ciudad"] : "";
         $genero = isset($_POST["sexo"]) ? $_POST["sexo"] : "";
         $fotoPerfil = isset($_FILES["file"]) ? $_FILES["file"] : "";
+        $latitud = isset($_POST["latitud"]) ? $_POST["latitud"] : "";
+        $longitud = isset($_POST["longitud"]) ? $_POST["longitud"] : "";
         $email = isset($_POST["email"]) ? $_POST["email"] : "";
         $usuario= isset($_POST["usuario"]) ? $_POST["usuario"] : "";
         $contraseña= isset($_POST["contraseña"]) ? $_POST["contraseña"] : "";
         $repiteContraseña = isset($_POST["repiteContraseña"]) ? $_POST["repiteContraseña"] : "";
 
         if ($contraseña == $repiteContraseña) {
-            if ($this->userModel->register($nombre, $apellido, $fechaNac, $latitud, $longitud, $genero, $email, $usuario, $contraseña, $fotoPerfil)) {
+            if ($this->userModel->register($nombre, $apellido, $fechaNac, $pais, $ciudad, $genero, $email, $usuario, $contraseña, $fotoPerfil, $latitud, $longitud)) {
                 $this->enviarMailConfirmacion($nombre, $email);
                 header("location:RenderLogin");
                 exit();
@@ -95,6 +97,7 @@ class UserController {
     public function perfil(){
         $usuario=$_GET["usuario"];
         $data["perfil"]=$this->userModel->perfil($usuario);
+        Logger::info($data["perfil"]);
         $this->renderer->render("perfil",$data);
     }
 

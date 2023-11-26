@@ -1,135 +1,96 @@
-<script async src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBhfr91aAHNvl8nIqlZK4vU5oM4f7ghH0A&callback=initMap"></script>
 <script>
     (g => {
-        var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document,
-                b = window;
-        b = b[c] || (b[c] = {});
-        var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams,
-                u = () => h || (h = new Promise(async (f, n) => {
-                    await (a = m.createElement("script"));
-                    e.set("libraries", [...r] + "");
-                    for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
-                    e.set("callback", c + ".maps." + q);
-                    a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
-                    d[q] = f;
-                    a.onerror = () => h = n(Error(p + " could not load."));
-                    a.nonce = m.querySelector("script[nonce]")?.nonce || "";
-                    m.head.append(a)
-                }));
-        d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n))
-    })({
-        key: "AIzaSyBhfr91aAHNvl8nIqlZK4vU5oM4f7ghH0A",
-        v: "beta"
-        // Add other bootstrap parameters as needed, using camel case.
-        // Use the 'v' parameter to indicate the version to load (alpha, beta, weekly, etc.)
+    var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document,
+            b = window;
+    b = b[c] || (b[c] = {});
+    var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams,
+            u = () => h || (h = new Promise(async (f, n) => {
+                await (a = m.createElement("script"));
+                e.set("libraries", [...r] + "");
+                for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
+                e.set("callback", c + ".maps." + q);
+                a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
+                d[q] = f;
+                a.onerror = () => h = n(Error(p + " could not load."));
+                a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+                m.head.append(a)
+            }));
+    d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n))
+})({
+    key: "AIzaSyBhfr91aAHNvl8nIqlZK4vU5oM4f7ghH0A",
+    v: "beta"
+    // Add other bootstrap parameters as needed, using camel case.
+    // Use the 'v' parameter to indicate the version to load (alpha, beta, weekly, etc.)
+});
+
+let map;
+let marker;
+
+async function initMap() {
+
+    // Mapa: Argentina
+    let position = {lat: -34.0000000, lng: -64.0000000};
+    //@ts-ignore
+    let {Map} = await google.maps.importLibrary("maps");
+
+    map = new Map(document.getElementById("mapa"), {
+        center: position,
+        zoom: 4,
+        mapId: "DEMO_MAP_ID",
+        title: "Argentina"
     });
+}
+async function cargarMapaSiInputsEstanCompletos(){
+    let pais = document.getElementById("selec-pais").value;
+    let ciudad = document.getElementById("selec-ciudad").value;
 
-    let map;
-    let marker;
-
-    async function initMap() {
-
-        // Mapa: Argentina
-        let position = {lat: -34.0000000, lng: -64.0000000};
-        //@ts-ignore
-        let {Map} = await google.maps.importLibrary("maps");
-
-        map = new Map(document.getElementById("mapa"), {
-            center: position,
-            zoom: 4,
-            mapId: "DEMO_MAP_ID",
-            title: "Argentina"
-        });
+    if(pais.length > 0 && ciudad.length > 0){
+        buscarEnMapa(pais, ciudad);
     }
-    async function cargarMapaSiInputsEstanCompletos(){
-        let pais = document.getElementById("seleccionar_pais").value;
-        let ciudad = document.getElementById("seleccionar_ciudad").value;
+}
+function validarBusqueda(){
+    let pais = document.getElementById("selec-pais").value;
+    let ciudad = document.getElementById("selec-ciudad").value;
+    let error_mapa = document.getElementById("error_busqueda_mapa");
 
-        if(pais.length > 0 && ciudad.length > 0){
-            buscarEnMapa(pais, ciudad);
+    if(pais == "" || ciudad == ""){
+        error_mapa.classList.remove("d-none")
+    } else{
+        error_mapa.classList.add("d-none");
+        buscarEnMapa(pais, ciudad);
+    }
+
+}
+async function buscarEnMapa(pais, ciudad) {
+
+    let geocoder = new google.maps.Geocoder();
+
+    geocoder.geocode({ address: pais + ', ' + ciudad }, (results, status) => {
+
+        if (status === 'OK') {
+
+            let latitud = results[0].geometry.location.lat();
+            let longitud = results[0].geometry.location.lng();
+
+            // Guardo el resultado de la busqueda en dos input hidden
+            document.getElementById("latitud").value = latitud;
+            document.getElementById("longitud").value = longitud;
+
+            // Muevo el centro del mapa al nuevo lugar
+            map.setCenter({ lat: latitud, lng: longitud });
+            map.setZoom(12);
+
+            //Creo y pongo el marcador para que se vea en el mapa
+            marker = new google.maps.Marker({
+                map: map,
+                position: {lat: latitud, lng: longitud},
+                title: pais + ', ' + ciudad,
+            })
+        } else {
+            console.error('Error al geocodificar la dirección:', status);
         }
-    }
-    function validarBusqueda(){
-        let pais = document.getElementById("seleccionar_pais").value;
-        let ciudad = document.getElementById("seleccionar_ciudad").value;
-        let error_mapa = document.getElementById("error_busqueda_mapa");
-
-        if(pais == "" || ciudad == ""){
-            error_mapa.classList.remove("d-none")
-        } else{
-            error_mapa.classList.add("d-none");
-            buscarEnMapa(pais, ciudad);
-        }
-
-    }
-    async function buscarEnMapa(pais, ciudad) {
-
-        let geocoder = new google.maps.Geocoder();
-
-        geocoder.geocode({ address: pais + ', ' + ciudad }, (results, status) => {
-
-            if (status === 'OK') {
-
-                let latitud = results[0].geometry.location.lat();
-                let longitud = results[0].geometry.location.lng();
-
-                // Guardo el resultado de la busqueda en dos input hidden
-                document.getElementById("latitud").value = latitud;
-                document.getElementById("longitud").value = longitud;
-
-                // Muevo el centro del mapa al nuevo lugar
-                map.setCenter({ lat: latitud, lng: longitud });
-                map.setZoom(12);
-
-                //Creo y pongo el marcador para que se vea en el mapa
-                marker = new google.maps.Marker({
-                    map: map,
-                    position: {lat: latitud, lng: longitud},
-                    title: pais + ', ' + ciudad,
-                })
-            } else {
-                console.error('Error al geocodificar la dirección:', status);
-            }
-        });
-    }
-
-    async function mostrarUbicacionUsuario(latitud, longitud){
-
-        document.getElementById("pais_ocultable").classList.add("d-none")
-        document.getElementById("ciudad_ocultable").classList.add("d-none")
-
-        document.getElementById("mapa").classList.remove("d-none");
-
-        let {Map} = await google.maps.importLibrary("maps");
-
-        map.setCenter({ lat: latitud, lng: longitud });
-        map.setZoom(12);
-
-        //Creo y pongo el marcador para que se vea en el mapa
-        marker = new google.maps.Marker({
-            map: map,
-            position: {lat: latitud, lng: longitud},
-            title:  "Marcador ubicado en el mapa",
-        });
-    }
-
-    function validarDatosCargadosPerfil(){
-        let latitud = document.getElementById("latitud").textContent;
-        let longitud = document.getElementById("longitud").textContent;
-
-        console.log("Valores previos a la conversion: --> Latitud: " + latitud + ", Longitud: " + longitud);
-        if(latitud == "" || longitud == ""){
-            validarDatosCargadosPerfil();
-        } else{
-            latitud = parseFloat(latitud);
-            longitud = parseFloat(longitud);
-
-            console.log("Valores luego de la conversion --> Latitud: " + latitud + ", Longitud: " + longitud);
-            mostrarUbicacionUsuario(latitud, longitud);
-        }
-
-    }
-
+    });
+}
 </script>
 
 <style>
@@ -138,8 +99,7 @@
     }
 
 </style>
-
-<body {{#map_is_on}}onload="initMap()" {{/map_is_on}}>
+<body onload="initMap()">
     <div class="container mt-5">
         <h1 class="text-center mb-4">Registro</h1>
         <form action="/user/register" method="post" enctype="multipart/form-data">
@@ -154,12 +114,12 @@
                         <input type="date" class="form-control" name="fechaNacimiento" required>
                     </div>
                     <div class="mb-3">
-                        <input type="text" id="seleccionar_pais" name="seleccionar_pais" class="form-control" placeholder="Ingrese país"
+                        <input type="text" id="selec-pais" name="selec-pais" class="form-control" placeholder="Ingrese país"
                                value="{{#pais}}{{.}}{{/pais}}">
                     </div>
                     <div {{#pais}}onload="cargarMapaSiInputsEstanCompletos()" {{/pais}}></div>
                     <div class="mb-2">
-                        <input type="text" id="seleccionar_ciudad" name="seleccionar_ciudad" class="form-control" placeholder="Ingrese ciudad"
+                        <input type="text" id="selec-ciudad" name="selec-ciudad" class="form-control" placeholder="Ingrese ciudad"
                                value="{{#ciudad}}{{.}}{{/ciudad}}">
                     </div>
                     <div class="mb-2 d-none text-center" id="error_busqueda_mapa">
