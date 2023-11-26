@@ -1245,3 +1245,77 @@
 [2023-11-26][INFO]Ejecutando query: SELECT SUM(qtyPartidas) as contPartidas FROM usuario
 [2023-11-26][INFO]Ejecutando query: SELECT pais, COUNT(*) as cantidad FROM `usuario` GROUP BY pais
 [2023-11-26][INFO]Ejecutando query: SELECT nombre, puntosTotales, qtyPreguntas FROM `usuario` ORDER BY id
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' AND contraseña = '123'
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' AND contraseña = '123'
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Ejecutando query: SELECT * FROM usuario order by record desc
+[2023-11-26][INFO]Select * from Usuario where usuario = 'maria' 
+[2023-11-26][INFO]Ejecutando query: Select * from Usuario where usuario = 'maria' 

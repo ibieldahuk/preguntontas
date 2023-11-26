@@ -1,3 +1,41 @@
+<script type="text/javascript">
+    function cargarRanking(){
+        let xml = new XMLHttpRequest();
+        xml.onreadystatechange = function () {
+            if (this.readyState === 4) {
+                if (this.status === 200) {
+                    let data = JSON.parse(this.responseText);
+                    actualizarTablaRanking(data);
+                } else {
+                    console.error('Error en la solicitud AJAX');
+                }
+            }
+        }
+        xml.open("GET", "/juego/ranking", true);
+        xml.send();
+    }
+
+    function actualizarTablaRanking(usuarios) {
+        let tablaBody = document.getElementById("mas-ranking");
+        tablaBody.innerHTML = ''; // Limpiar la tabla antes de agregar nuevos datos
+
+        usuarios.forEach(function (usuario) {
+            let fila = document.createElement("tr");
+            fila.className = "text-center";
+            fila.innerHTML = `
+            <td>${usuario.nombre}</td>
+            <td>${usuario.puesto}</td>
+            <td>${usuario.record}</td>
+            <td><a href="/user/perfil/usuario=${usuario.nombre}" class="btn btn-primary">Ver Perfil</a></td>`;
+            tablaBody.appendChild(fila);
+        });
+    }
+
+
+    cargarRanking();
+
+</script>
+
 <style>
     .mt-5 {
         margin-top: 10rem!important;
@@ -6,19 +44,19 @@
 <div class="container mt-5">
     <h1 class="mb-4 text-center">Ranking</h1>
 
-    <div class="row">
-        <div class="col-md-12">
-            {{#rank}}
-                <div class="card mb-4 bg-primary text-white d-flex">
-                    <div class="card-body d-inline-flex justify-content-around">
-                        <h5 class="card-title mb-2">{{usuario}}</h5>
-                        <p class="card-text mb-2">Puesto: {{ranking}}</p>
-                        <p class="card-text mb-2">Record: {{record}}</p>
-                        <a href="/user/perfil/usuario={{usuario}}" class="btn btn-light">Ver perfil</a>
-                    </div>
-                </div>
-            {{/rank}}
-        </div>
+    <div class="container mt-4">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Usuario</th>
+                <th scope="col">Puesto</th>
+                <th scope="col">Record</th>
+                <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody id="mas-ranking">
+            </tbody>
+        </table>
     </div>
 
 </div>
