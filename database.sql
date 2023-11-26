@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-11-2023 a las 21:02:58
+-- Tiempo de generación: 26-11-2023 a las 23:37:55
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.0.28
 
@@ -44,38 +44,38 @@ CREATE TABLE `preguntas` (
 --
 
 INSERT INTO `preguntas` (`ID`, `pregunta`, `categoria`, `qty`, `correctas`, `sharecorrecta`, `fecha_creacion`, `esSugerida`, `estaReportada`) VALUES
-(1, '¿Quién es el heroe que protege a Ciudad Gotica?', 'Entretenimiento', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
+(1, '¿Quién es el heroe que protege a Ciudad Gotica?', 'Entretenimiento', 2, 2, 1, '2023-11-18 17:35:24', 0, 0),
 (2, '¿Cómo se llamaba el barco del pirata Jack Sparrow en \"Piratas del Caribe\"?', 'Entretenimiento', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(3, '¿Cuál es la comida preferida de Garfield?', 'Entretenimiento', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
+(3, '¿Cuál es la comida preferida de Garfield?', 'Entretenimiento', 2, 2, 1, '2023-11-18 17:35:24', 0, 0),
 (4, '¿En que parte de Estados unidos vive la familia soprano?', 'Entretenimiento', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (5, '¿Qué superpoder tiene Lex Luthor, el archienemigo de Superman?', 'Entretenimiento', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (6, '¿En que cancha esta filmada la escena de futbol de \"El Secreto ded sus Ojos\"?', 'Entretenimiento', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (7, 'Apu de Los Simpsons ¿Es vegetariano?', 'Entretenimiento', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (8, '¿En que pais se desarrolla \"La novicia rebelde\"?', 'Entretenimiento', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(9, '¿Con que pelicula Jennifer Lawrence gano el Oscar?', 'Entretenimiento', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
+(9, '¿Con que pelicula Jennifer Lawrence gano el Oscar?', 'Entretenimiento', 2, 2, 1, '2023-11-18 17:35:24', 0, 0),
 (10, '¿Cómo se llama el hermano de Michael Scofield en la serie \"Prision Break\"?', 'Entretenimiento', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (11, '¿Qué ciudad fue elegida como sede de los juegos olimpicos 2020?', 'Deporte', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (12, 'El tenista Rafael Nadal ¿Es diestro?', 'Deporte', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(13, '¿Qué nombre recibe la colchoneta donde se practica Judo?', 'Deporte', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(14, 'En la pesca deportiva ¿A que pez se lo conoce como \"Flecha de plata\"?', 'Deporte', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(15, '¿En que provincia Argentina nacio el golfista Angel Cabrera?', 'Deporte', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(16, '¿Qué animal fue seleccionado como mascota del mundial de futbol Rusia 2018?', 'Deporte', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(17, '¿Se permiten golpes de codo en kick-boxing?', 'Deporte', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
+(13, '¿Qué nombre recibe la colchoneta donde se practica Judo?', 'Deporte', 2, 2, 1, '2023-11-18 17:35:24', 0, 0),
+(14, 'En la pesca deportiva ¿A que pez se lo conoce como \"Flecha de plata\"?', 'Deporte', 2, 2, 1, '2023-11-18 17:35:24', 0, 0),
+(15, '¿En que provincia Argentina nacio el golfista Angel Cabrera?', 'Deporte', 2, 1, 1, '2023-11-18 17:35:24', 0, 0),
+(16, '¿Qué animal fue seleccionado como mascota del mundial de futbol Rusia 2018?', 'Deporte', 2, 1, 1, '2023-11-18 17:35:24', 0, 0),
+(17, '¿Se permiten golpes de codo en kick-boxing?', 'Deporte', 2, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (18, '¿En que pais se invento el paddle?', 'Deporte', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(19, '¿Qué altura tienen los trampolines olimpicos?', 'Deporte', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
+(19, '¿Qué altura tienen los trampolines olimpicos?', 'Deporte', 2, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (20, '¿Cuántas medallas de oro tuvo Argentina en Rio 2016?', 'Deporte', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (21, '¿Qué animal puede sobrevivir mas tiempo sin agua?', 'Naturaleza', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(22, '¿Las hormigas tienen reinas, como las abejas?', 'Naturaleza', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(23, 'Los tibres blancos tienen ojos azules ¿De que color los tienen el resto?', 'Naturaleza', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
+(22, '¿Las hormigas tienen reinas, como las abejas?', 'Naturaleza', 3, 3, 1, '2023-11-18 17:35:24', 0, 0),
+(23, 'Los tibres blancos tienen ojos azules ¿De que color los tienen el resto?', 'Naturaleza', 2, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (24, 'Los koalas se alimentan de las hojas y corteza de un solo arbol ¿De cual?', 'Naturaleza', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (25, '¿Quién fue el primer hombre que realizo un vuelo espacial?', 'Naturaleza', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (26, '¿En que lugar del cuerpo tienen las moscas sus 15.000 papilas gustativas?', 'Naturaleza', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (27, '¿En que momento del dia suelen registrarse las temperaturas mas bajas?', 'Naturaleza', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (28, '¿De que color es la piel de los osos polares debajo del pelo?', 'Naturaleza', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(29, '¿Las ballenas ponen huevos?', 'Naturaleza', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
+(29, '¿Las ballenas ponen huevos?', 'Naturaleza', 2, 2, 1, '2023-11-18 17:35:24', 0, 0),
 (30, '¿Cuántas patas tiene un cien pies?', 'Naturaleza', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (31, '¿Dónde nacio Barack Obama?', 'Geografia', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(32, 'Si hago rafting en el rio Atuel ¿En que provincia estoy?', 'Geografia', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
+(32, 'Si hago rafting en el rio Atuel ¿En que provincia estoy?', 'Geografia', 2, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (33, '¿Qué pais asiatico es conocido como \"La tierra del elefante blanco\"?', 'Geografia', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (34, '¿La ruptura de que galciar es admirado por miles de turistar?', 'Geografia', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (35, '¿En que pais esta la caverna mas profunda del mundo?', 'Geografia', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
@@ -83,7 +83,7 @@ INSERT INTO `preguntas` (`ID`, `pregunta`, `categoria`, `qty`, `correctas`, `sha
 (37, '¿Cómo se llamo el huracan que devasto Nueva Orleans en el siglo XXI?', 'Geografia', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (38, 'Indonesia ¿Esta formado por mas de 10.000 islas?', 'Geografia', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
 (39, '¿Qué provincia es la capital nacional del poncho?', 'Geografia', 1, 1, 1, '2023-11-18 17:35:24', 0, 0),
-(40, 'Una vez disuelta la Union Sovietica ¿Cuál paso a ser el pais mas extenso del mundo?', 'Geografia', 1, 1, 1, '2023-11-18 17:35:24', 0, 0);
+(40, 'Una vez disuelta la Union Sovietica ¿Cuál paso a ser el pais mas extenso del mundo?', 'Geografia', 2, 2, 1, '2023-11-18 17:35:24', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -95,6 +95,27 @@ CREATE TABLE `repetida` (
   `id_usuario` int(4) DEFAULT NULL,
   `id_preguntaRepetida` int(4) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `repetida`
+--
+
+INSERT INTO `repetida` (`id_usuario`, `id_preguntaRepetida`) VALUES
+(7, 13),
+(7, 23),
+(7, 17),
+(7, 22),
+(7, 15),
+(7, 16),
+(3, 9),
+(3, 22),
+(3, 32),
+(3, 1),
+(3, 3),
+(3, 29),
+(3, 40),
+(3, 14),
+(3, 19);
 
 -- --------------------------------------------------------
 
@@ -288,6 +309,7 @@ CREATE TABLE `usuario` (
   `qtyPreguntas` int(11) NOT NULL DEFAULT 0,
   `qtyCorrectas` int(11) NOT NULL DEFAULT 0,
   `shareCorrecta` float NOT NULL DEFAULT 0,
+  `qtyPartidas` int(100) NOT NULL DEFAULT 0,
   `fecha_creacion` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -295,11 +317,11 @@ CREATE TABLE `usuario` (
 -- Volcado de datos para la tabla `usuario`
 --
 
-INSERT INTO `usuario` (`id`, `nombre`, `apellido`, `fechaNac`, `pais`, `ciudad`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`, `latitud`, `longitud`, `record`, `puntosTotales`, `qtyPreguntas`, `qtyCorrectas`, `shareCorrecta`, `fecha_creacion`) VALUES
-(1, 'admin', 'admin', '2003-03-20', '0', '0', 'Mascuino', 'admin@test.com', 'admin', '1234', '', 0, 0, 0, 0, 0, 0, 0, '2023-11-18 17:33:25'),
-(2, 'editor', 'editor', '2000-10-10', '0', '0', 'Femenino', 'editor@test.com', 'editor', '1234', '', 0, 0, 0, 0, 0, 0, 0, '2023-11-18 17:33:25'),
-(3, 'Guadalupe', 'Fernandez', '2000-06-20', '0', '0', 'Femenino', 'guadapfernandez@gmail.com', 'guada', '1234', 'public/imagen_124.jpg', 0, 0, 0, 0, 0, 0, 0, '2023-11-18 17:33:25'),
-(7, 'maria', 'perez', '1989-12-13', 'Argentina', 'Haedo', 'Femenino', 'guadapfernandez@hotmail.com', 'maria', '123', 'public/fotosPerfil/imagen_92.jpg', -34.6440676, -58.59564279999999, 0, 0, 0, 0, 0, '2023-11-26 19:29:42');
+INSERT INTO `usuario` (`id`, `nombre`, `apellido`, `fechaNac`, `pais`, `ciudad`, `genero`, `email`, `usuario`, `contraseña`, `fotoPerfil`, `latitud`, `longitud`, `record`, `puntosTotales`, `qtyPreguntas`, `qtyCorrectas`, `shareCorrecta`, `qtyPartidas`, `fecha_creacion`) VALUES
+(1, 'admin', 'admin', '2003-03-20', 'Chile', 'Santiago de Chile', 'Mascuino', 'admin@test.com', 'admin', '1234', '', 0, 0, 0, 0, 0, 0, 0, 0, '2023-11-18 17:33:25'),
+(2, 'editor', 'editor', '2000-10-10', 'Argentina', 'San Justo', 'Femenino', 'editor@test.com', 'editor', '1234', '', 0, 0, 0, 0, 0, 0, 0, 0, '2023-11-18 17:33:25'),
+(3, 'Guadalupe', 'Fernandez', '2000-06-20', 'Argentina', 'Moron', 'Femenino', 'guadapfernandez@gmail.com', 'guada', '1234', 'public/imagen_124.jpg', 0, 0, 5, 7, 9, 7, 0.777778, 2, '2023-11-18 17:33:25'),
+(7, 'maria', 'perez', '1989-12-13', 'Argentina', 'Haedo', 'Femenino', 'guadapfernandez@hotmail.com', 'maria', '123', 'public/fotosPerfil/imagen_92.jpg', -34.6440676, -58.59564279999999, 1, 3, 6, 2, 0.333333, 4, '2023-11-26 19:29:42');
 
 --
 -- Índices para tablas volcadas
