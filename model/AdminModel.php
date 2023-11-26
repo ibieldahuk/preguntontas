@@ -36,14 +36,23 @@ class AdminModel
     }
 
     public function cantidadPreguntasPorUsuario(){
-        $sql = "SELECT id, puntosTotales, qtyPreguntas FROM `usuario` ORDER BY id";
+        $sql = "SELECT nombre, puntosTotales, qtyPreguntas FROM `usuario` ORDER BY id";
         return $this->database->query($sql);
     }
 
     public function cantidadJugadoresNuevos(){
-        $sql = "SELECT * FROM `usuario` WHERE fecha_creacion >= DATE_SUB(CURDATE(), INTERVAL 15 DAY)";
+        $sql = "SELECT * FROM `usuario` WHERE id > 2 AND fecha_creacion >= DATE_SUB(CURDATE(), INTERVAL 15 DAY)";
         return sizeof($this->database->query($sql));
     }
 
+    public function cantidadJugadoresPorPais(){
+        $sql = "SELECT pais, COUNT(*) as cantidad FROM `usuario` GROUP BY pais";
+        return $this->database->query($sql);
+    }
+
+    public function cantidadDePartidasJugadas(){
+        $sql = "SELECT SUM(qtyPartidas) as contPartidas FROM usuario";
+        return $this->database->query($sql);
+    }
 
 }

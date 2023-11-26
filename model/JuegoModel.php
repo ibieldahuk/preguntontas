@@ -274,4 +274,10 @@ class JuegoModel
         $this->database->execute("INSERT INTO respuestas (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES ($idPregunta, '$opcion2', 'NO');");
         $this->database->execute("INSERT INTO respuestas (`id_preguntas`, `opcion`, `opcioncorrecta`) VALUES ($idPregunta, '$opcion3', 'NO');");
     }
+
+    public function incrementarPartidasJugadas(){
+        $usuario = $_SESSION["usuario"];
+        $sql = "UPDATE usuario SET qtyPartidas = qtyPartidas + 1 WHERE usuario = '$usuario'";
+        $this->database->execute($sql);
+    }
 }

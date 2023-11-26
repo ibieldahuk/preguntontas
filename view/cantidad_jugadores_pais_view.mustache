@@ -5,23 +5,23 @@
     google.charts.setOnLoadCallback(drawChart);
 
     function drawChart() {
-        var jsonString = '{{{dataForChart}}}';
+        var jsonString = '{{{jsonCantidadJugadoresPorPais}}}';
 
         try{
             var jsonData = JSON.parse(jsonString);
             // Create our data table.
             data = new google.visualization.DataTable();
-            data.addColumn('string', 'Usuario');
-            data.addColumn('number', 'Porcentaje');
+            data.addColumn('string', 'Pais');
+            data.addColumn('number', 'Cantidad');
             for(var i=0; i<jsonData.length; i++){
-                data.addRow([jsonData[i][0], jsonData[i][1]]);
+                data.addRow([jsonData[i].pais, parseInt(jsonData[i].cantidad, 10)]);
             }
 
             // Set chart options
-            var options = {'title':'Porcentaje de preguntas respondidas por cada usuario'};
+            var options = {'title':'Cantidad de jugadores por Pais'};
 
             // Instantiate and draw our chart, passing in some options.
-            chart = new google.visualization.BarChart(document.getElementById('grafico'));
+            chart = new google.visualization.PieChart(document.getElementById('grafico'));
             google.visualization.events.addListener(chart, 'select', selectHandler);
             chart.draw(data, options);
 

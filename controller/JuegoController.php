@@ -18,7 +18,7 @@ class JuegoController
 
     public function partida() {
         $_SESSION["RACHA"]=0;
-        $_SESSION["contPartida"]++;
+        $this->juegoModel->incrementarPartidasJugadas();
         $this->generarPregunta();
     }
 

@@ -1,7 +1,9 @@
 <script type="text/javascript">
     var data;
     var chart;
-    var cantPartidas = {{contPartida}};
+    var cantPartidas = {{contPartida.0.contPartidas}};
+
+    console.log(cantPartidas);
     google.charts.load('current', {'packages':['corechart']});
     google.charts.setOnLoadCallback(drawChart);
 
@@ -9,7 +11,7 @@
 
         // Create our data table.
         data = new google.visualization.DataTable();
-        data.addColumn('string', 'Categoria');
+        data.addColumn('string', 'qtyPartidas');
         data.addColumn('number', 'Cantidad');
         data.addRows([
             ['Total', cantPartidas],

@@ -36,10 +36,7 @@ class AdminController
 
 
     public function renderCantidadPartidasJugadas(){
-        if(!isset($_SESSION["contPartida"])){
-            $_SESSION["contPartida"]=0;
-        }
-        $datos["contPartida"] = $_SESSION["contPartida"];
+        $datos["contPartida"] = $this->adminModel->cantidadDePartidasJugadas();
         $this->renderer->render("cantidad_partidas_jugadas", $datos);
     }
 
@@ -51,6 +48,7 @@ class AdminController
         // Procesar datos para el gráfico
         foreach ($usuarios as $usuario) {
             $usuarioId = $usuario['id'];
+            $nombre = $usuario['nombre'];
             $puntosTotales = $usuario['puntosTotales'];
             $qtyPreguntas = $usuario['qtyPreguntas'];
 
@@ -60,7 +58,7 @@ class AdminController
                 $porcentaje = 0;
             }
 
-            $datos[] = [$usuarioId, $porcentaje];
+            $datos[] = [$nombre, $porcentaje];
         }
 
         // Pasar datos a la vista Mustache
@@ -74,6 +72,12 @@ class AdminController
         $datos["cantidadJugadoresNuevos"] = $this->adminModel->cantidadJugadoresNuevos();
         Logger::info($datos["cantidadJugadoresNuevos"]);
         return $this->renderer->render("cantidad_jugadores_nuevos", $datos);
+    }
+
+    public function renderCantidadJugadoresPorPais(){
+        $datos["cantidadJugadoresPorPais"] = $this->adminModel->cantidadJugadoresPorPais();
+        $datos["jsonCantidadJugadoresPorPais"] = json_encode($datos["cantidadJugadoresPorPais"]);
+        return $this->renderer->render("cantidad_jugadores_pais", $datos);
     }
 
     public function generarPDF(){
