@@ -210,7 +210,7 @@ class JuegoModel
         foreach ($consulta as $var) {
             $share = ($var["qtyCorrectas"]/$var["qtyPreguntas"]);
         }
-        var_dump($share);
+        //var_dump($share);
         $sql = "Update usuario
                 Set shareCorrecta=$share
                 where usuario = '$id'";
