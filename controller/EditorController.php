@@ -16,7 +16,6 @@ class EditorController
         $datos["titulo"] = "Gestor de preguntas oficiales";
         $datos["preguntas"] = $this->editorModel->obtenerPreguntasOficiales();
         $datos["metodos"] = [
-            array("metodo" => "renderEditarPregunta", "texto" => "Editar"),
             array("metodo" => "borrarPregunta", "texto" => "Borrar"),
             array("metodo" => "verDetalles", "texto" => "Ver detalles")
             ];
@@ -29,7 +28,6 @@ class EditorController
         $datos["preguntas"] = $this->editorModel->obtenerPreguntasSugeridas();
         $datos["metodos"] = [
             array("metodo" => "borrarPregunta", "texto" => "Descartar"),
-            array("metodo" => "renderEditarPregunta", "texto" => "Modificar"),
             array("metodo" => "oficializarPregunta", "texto" => "Aceptar"),
             array("metodo" => "verDetalles", "texto" => "Ver detalles")
         ];
@@ -113,7 +111,7 @@ class EditorController
         $idPregunta = $_POST["id"];
         $pregunta = $_POST["pregunta"] ?? "";
         $this->editorModel->editarPregunta($idPregunta, $pregunta);
-        header("location:/editor/renderGestionarPreguntas");
+        header("location:/editor/verDetalles/id=" . $_POST["id"]);
         exit();
     }
 

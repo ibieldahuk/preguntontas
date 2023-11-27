@@ -74,7 +74,7 @@ class EditorModel
 
     public function editarPregunta($idPregunta, $pregunta)
     {
-        $sql = "UPDATE `preguntas` SET `pregunta` = '$pregunta' WHERE `id` = $idPregunta";
+        $sql = "UPDATE `preguntas` SET `pregunta` = '$pregunta' WHERE `id` = $idPregunta;";
         return $this->database->execute($sql);
     }
 
