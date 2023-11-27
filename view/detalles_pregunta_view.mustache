@@ -3,7 +3,10 @@
 
     <h2>Pregunta</h2>
     {{#pregunta}}
+    <div id="pregunta">
         <p>{{pregunta}}</p>
+        <button onclick="editarPregunta('{{id}}', 'respuesta-correcta', '{{id}}', 'SI')" class="btn btn-primary">Editar</button>
+    </div>
     {{/pregunta}}
 
     <section class="mt-3">
@@ -13,18 +16,17 @@
                 {{#respuesta_correcta}}
                 <div id="respuesta-correcta">
                     <p>{{opcion}}</p>
-                    <button onclick="editarRespuesta('{{id_preguntas}}', 'respuesta-correcta', '{{id}}', 'SI')">Editar</button>
-                    <!--input type="hidden" name="id-correcta" value="{{id}}">
-                    <input type="text" class="form-control" name="opcion-correcta" value="{{opcion}}"-->
+                    <button onclick="editarRespuesta('{{id_preguntas}}', 'respuesta-correcta', '{{id}}', 'SI')" class="btn btn-primary">Editar</button>
                 </div>
                 {{/respuesta_correcta}}
             </div>
 
             <div class="mb-3">
+                <h2>Respuestas incorrectas</h2>
                 {{#respuestas_incorrectas}}
                 <div id="respuesta-incorrecta-{{orden}}">
-                                    <p>{{opcion}}</p>
-                                    <button onclick="editarRespuesta('{{id_preguntas}}', 'respuesta-incorrecta-{{orden}}', '{{id}}', 'NO')">Editar</button>
+                    <p>{{opcion}}</p>
+                    <button onclick="editarRespuesta('{{id_preguntas}}', 'respuesta-incorrecta-{{orden}}', '{{id}}', 'NO')" class="btn btn-primary">Editar</button>
                 </div>
                 {{/respuestas_incorrectas}}
             </div>
@@ -32,8 +34,8 @@
         </section>
 
 </div>
-<!--script type="text/javascript" src="public/js/detalles_pregunta.js"></script-->
-<script>
+<script type="text/javascript" src="/public/js/detalles_pregunta.js"></script>
+<!--script>
     function editarRespuesta(idPregunta, idElemento, idRespuesta, esCorrecta) {
         let contenedor = document.getElementById(idElemento);
         let respuesta = contenedor.querySelector("p").textContent;
@@ -54,4 +56,4 @@
             "<button onclick=\"editarRespuesta(\'" + idPregunta + "\',\'" + idElemento + "\',\'" + idRespuesta + "\',\'" + esCorrecta + "\')\">Editar</button>";
         contenedor.innerHTML = codigo;
     }
-</script>
+</script-->
