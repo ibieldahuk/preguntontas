@@ -15,8 +15,14 @@ window.onload = function () {
             }
             if(timer == 0){
                 clearInterval(tiempoRegresivoId);
+                finalizarPartida();
             }
         }, 1000);
     }
     contarTiempo();
+
+    function finalizarPartida() {
+            console.log("??");
+        location.replace("respuesta/id=SI");
+    }
 };

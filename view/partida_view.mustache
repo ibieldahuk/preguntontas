@@ -9,7 +9,7 @@
     {{/categoria}}
     <h1 class="text-center">Preguntontas</h1>
     <div id="visual-timer" {{#check}}class="d-none"{{/check}}>
-        <div id="timer-wrapper"><span id="time">00:15</span></div>
+        <div id="timer-wrapper"><span id="time" onchange="finalizarPartida()">00:15</span></div>
     </div>
     <div class="card text-dark bg-light mx-auto" style="max-width: 800px; border-radius: 20px;">
         {{#pregunta}}

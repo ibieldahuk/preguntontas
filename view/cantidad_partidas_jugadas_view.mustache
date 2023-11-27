@@ -1,4 +1,21 @@
-<script type="text/javascript">
+
+
+<div class="container mt-5 ">
+    <form action="/admin/generarPDF" method="post">
+        <input type="hidden" name="img" id="img">
+
+        <div class="mb-3">
+            <div id="grafico" style="width: 100%; height: 500px;"></div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button class="btn btn-primary" type="submit">Generar PDF</button>
+        </div>
+
+    </form>
+</div>
+
+<script>
+window.onload = function () {
     var data;
     var chart;
     var cantPartidas = {{contPartida.0.contPartidas}};
@@ -33,19 +50,6 @@
         var value = data.getValue(selectedItem.row, 0);
         alert('The user selected ' + value);
     }
+}
 
 </script>
-
-<div class="container mt-5 ">
-    <form action="/admin/generarPDF" method="post">
-        <input type="hidden" name="img" id="img">
-
-        <div class="mb-3">
-            <div id="grafico" style="width: 100%; height: 500px;"></div>
-        </div>
-        <div class="d-flex justify-content-center">
-            <button class="btn btn-primary" type="submit">Generar PDF</button>
-        </div>
-
-    </form>
-</div>
