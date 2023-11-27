@@ -3187,3 +3187,401 @@
 [2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
 [2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
 [2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: UPDATE usuario SET qtyPartidas = qtyPartidas + 1 WHERE usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select id 
+                from Preguntas
+[2023-11-27][INFO]Ejecutando query: Select id_usuario 
+                from Repetida
+                where id_usuario = 3
+[2023-11-27][INFO]Ejecutando query: 
+            Select * 
+            from Preguntas 
+            where shareCorrecta BETWEEN 0.6 and 1 
+            and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
+            
+[2023-11-27][INFO]Ejecutando query: Select id
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: INSERT INTO repetida (id_usuario,id_preguntaRepetida) VALUES (3,27)
+[2023-11-27][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 27
+[2023-11-27][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 27
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set qty=3
+                where id = 27
+[2023-11-27][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=35
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 27
+[2023-11-27][INFO]Ejecutando query: SELECT categoria FROM `preguntas` where ID = '27'
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select correctas
+                from Preguntas
+                where id = 27
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set correctas=2
+                where id = 27
+[2023-11-27][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 27
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.66666666666667
+                where id = 27
+[2023-11-27][INFO]Ejecutando query: Select qtyCorrectas
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set qtyCorrectas=10
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.28571428571429
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select id 
+                from Preguntas
+[2023-11-27][INFO]Ejecutando query: Select id_usuario 
+                from Repetida
+                where id_usuario = 3
+[2023-11-27][INFO]Ejecutando query: 
+            Select * 
+            from Preguntas 
+            where shareCorrecta BETWEEN 0.6 and 1 
+            and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
+            
+[2023-11-27][INFO]Ejecutando query: Select id
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: INSERT INTO repetida (id_usuario,id_preguntaRepetida) VALUES (3,36)
+[2023-11-27][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 36
+[2023-11-27][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 36
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set qty=3
+                where id = 36
+[2023-11-27][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=36
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 36
+[2023-11-27][INFO]Ejecutando query: SELECT categoria FROM `preguntas` where ID = '36'
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select correctas
+                from Preguntas
+                where id = 36
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set correctas=3
+                where id = 36
+[2023-11-27][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 36
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=1
+                where id = 36
+[2023-11-27][INFO]Ejecutando query: Select qtyCorrectas
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set qtyCorrectas=11
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.30555555555556
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select id 
+                from Preguntas
+[2023-11-27][INFO]Ejecutando query: Select id_usuario 
+                from Repetida
+                where id_usuario = 3
+[2023-11-27][INFO]Ejecutando query: 
+            Select * 
+            from Preguntas 
+            where shareCorrecta BETWEEN 0.3 and 0.6 
+            and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
+            
+[2023-11-27][INFO]Ejecutando query: 
+            Select * 
+            from Preguntas 
+            where shareCorrecta BETWEEN 0 and 1 
+            and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
+            
+[2023-11-27][INFO]Ejecutando query: Select id
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: INSERT INTO repetida (id_usuario,id_preguntaRepetida) VALUES (3,25)
+[2023-11-27][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 25
+[2023-11-27][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 25
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set qty=3
+                where id = 25
+[2023-11-27][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=37
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 25
+[2023-11-27][INFO]Ejecutando query: SELECT categoria FROM `preguntas` where ID = '25'
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: UPDATE usuario SET qtyPartidas = qtyPartidas + 1 WHERE usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select id 
+                from Preguntas
+[2023-11-27][INFO]Ejecutando query: Select id_usuario 
+                from Repetida
+                where id_usuario = 3
+[2023-11-27][INFO]Ejecutando query: 
+            Select * 
+            from Preguntas 
+            where shareCorrecta BETWEEN 0.3 and 0.6 
+            and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
+            
+[2023-11-27][INFO]Ejecutando query: 
+            Select * 
+            from Preguntas 
+            where shareCorrecta BETWEEN 0 and 1 
+            and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
+            
+[2023-11-27][INFO]Ejecutando query: Select id
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: INSERT INTO repetida (id_usuario,id_preguntaRepetida) VALUES (3,5)
+[2023-11-27][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 5
+[2023-11-27][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 5
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set qty=3
+                where id = 5
+[2023-11-27][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=38
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 5
+[2023-11-27][INFO]Ejecutando query: SELECT categoria FROM `preguntas` where ID = '5'
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select correctas
+                from Preguntas
+                where id = 5
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set correctas=2
+                where id = 5
+[2023-11-27][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 5
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.66666666666667
+                where id = 5
+[2023-11-27][INFO]Ejecutando query: Select qtyCorrectas
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set qtyCorrectas=12
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.31578947368421
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select id 
+                from Preguntas
+[2023-11-27][INFO]Ejecutando query: Select id_usuario 
+                from Repetida
+                where id_usuario = 3
+[2023-11-27][INFO]Ejecutando query: 
+            Select * 
+            from Preguntas 
+            where shareCorrecta BETWEEN 0.3 and 0.6 
+            and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
+            
+[2023-11-27][INFO]Ejecutando query: 
+            Select * 
+            from Preguntas 
+            where shareCorrecta BETWEEN 0 and 1 
+            and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
+            
+[2023-11-27][INFO]Ejecutando query: Select id
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: INSERT INTO repetida (id_usuario,id_preguntaRepetida) VALUES (3,20)
+[2023-11-27][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 20
+[2023-11-27][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 20
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set qty=3
+                where id = 20
+[2023-11-27][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=39
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 20
+[2023-11-27][INFO]Ejecutando query: SELECT categoria FROM `preguntas` where ID = '20'
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select correctas
+                from Preguntas
+                where id = 20
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set correctas=2
+                where id = 20
+[2023-11-27][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 20
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.66666666666667
+                where id = 20
+[2023-11-27][INFO]Ejecutando query: Select qtyCorrectas
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set qtyCorrectas=13
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.33333333333333
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select id 
+                from Preguntas
+[2023-11-27][INFO]Ejecutando query: Select id_usuario 
+                from Repetida
+                where id_usuario = 3
+[2023-11-27][INFO]Ejecutando query: 
+            Select * 
+            from Preguntas 
+            where shareCorrecta BETWEEN 0.3 and 0.6 
+            and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
+            
+[2023-11-27][INFO]Ejecutando query: 
+            Select * 
+            from Preguntas 
+            where shareCorrecta BETWEEN 0 and 1 
+            and id not in ( Select id_preguntaRepetida from repetida where id_usuario = 3)
+            
+[2023-11-27][INFO]Ejecutando query: Select id
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: INSERT INTO repetida (id_usuario,id_preguntaRepetida) VALUES (3,2)
+[2023-11-27][INFO]Ejecutando query: Select pregunta as Pregunta
+                from Preguntas
+                where id = 2
+[2023-11-27][INFO]Ejecutando query: Select qty
+                from Preguntas
+                where id = 2
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set qty=3
+                where id = 2
+[2023-11-27][INFO]Ejecutando query: Select qtyPreguntas
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set qtyPreguntas=40
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select * from Respuestas where ID_preguntas = 2
+[2023-11-27][INFO]Ejecutando query: SELECT categoria FROM `preguntas` where ID = '2'
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select correctas
+                from Preguntas
+                where id = 2
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set correctas=2
+                where id = 2
+[2023-11-27][INFO]Ejecutando query: Select *
+                from Preguntas
+                where id = 2
+[2023-11-27][INFO]Ejecutando query: Update preguntas
+                Set shareCorrecta=0.66666666666667
+                where id = 2
+[2023-11-27][INFO]Ejecutando query: Select qtyCorrectas
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set qtyCorrectas=14
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Update usuario
+                Set shareCorrecta=0.35
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select *
+                from usuario
+                where usuario = 'guada'
+[2023-11-27][INFO]Ejecutando query: Select id 
+                from Preguntas
+[2023-11-27][INFO]Ejecutando query: Select id_usuario 
+                from Repetida
+                where id_usuario = 3
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Select * from Usuario where usuario = 'guada' 
+[2023-11-27][INFO]Ejecutando query: Select * from Usuario where usuario = 'guada' 
