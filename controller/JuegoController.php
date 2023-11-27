@@ -24,33 +24,38 @@ class JuegoController
 
     public function generarPregunta(){
         $_SESSION["IdPregunta"] = $this->juegoModel->idPregunta();
-        if($_SESSION["IdPregunta"] == NULL){
+        if($_SESSION["IdPregunta"] == NULL) {
             $datos["completo"] = "Completaste todas las preguntas!";
             $this->renderer->render("home",$datos);
-        }else{
-        $this->juegoModel->preguntaRepetida($_SESSION["IdPregunta"]);
-        $_SESSION["pregunta"] = $this->juegoModel->elegirPregunta($_SESSION["IdPregunta"]);
-        $this->juegoModel->contarPregunta($_SESSION["IdPregunta"]);
-        $this->juegoModel->contarPreguntaUsuario($_SESSION["usuario"]);
-        $_SESSION["respuestas"] = $this->juegoModel->elegirRespuestas($_SESSION["IdPregunta"]);
-        $categoria = $this->juegoModel->obtenerCategoria($_SESSION["IdPregunta"]);
+        } else {
+            $this->juegoModel->preguntaRepetida($_SESSION["IdPregunta"]);
+            $_SESSION["pregunta"] = $this->juegoModel->elegirPregunta($_SESSION["IdPregunta"]);
+            $this->juegoModel->contarPregunta($_SESSION["IdPregunta"]);
+            $this->juegoModel->contarPreguntaUsuario($_SESSION["usuario"]);
+            $_SESSION["respuestas"] = $this->juegoModel->elegirRespuestas($_SESSION["IdPregunta"]);
+            $categoria = $this->juegoModel->obtenerCategoria($_SESSION["IdPregunta"]);
 
-        $datos["categoria"] = $categoria;
-        $datos["racha"] = $_SESSION["RACHA"];
-        $datos["idPregunta"] = $_SESSION["IdPregunta"];
-        $datos["pregunta"] = $_SESSION["pregunta"];
-        $datos["respuestas"] = $_SESSION["respuestas"];
-        $this->renderer->render("partida",$datos);
+            $datos["categoria"] = $categoria;
+            $datos["racha"] = $_SESSION["RACHA"];
+            $datos["idPregunta"] = $_SESSION["IdPregunta"];
+            $datos["pregunta"] = $_SESSION["pregunta"];
+            $datos["respuestas"] = $_SESSION["respuestas"];
+
+            $_SESSION["temporizador-comienzo"] = time();
+
+            $this->renderer->render("partida",$datos);
         }
     }
 
     public function respuesta() {
         $id = $_GET['id'];
 
+        $temporizadorFin = time();
+        $tiempo = $temporizadorFin - $_SESSION["temporizador-comienzo"];
+
         if($id==NULL){
             $datos["check"] = "Contactar con el desarrollador";
-
-        }else if($id=="SI"){
+        }else if($id=="SI" && $tiempo < 10){
             $_SESSION["RACHA"]++;
             $this->juegoModel->contarCorrecta($_SESSION["IdPregunta"]);
             $this->juegoModel->actualizarDificultad($_SESSION["IdPregunta"]);
@@ -65,7 +70,11 @@ class JuegoController
             $this->juegoModel->cargarPuntaje();
             $this->juegoModel->actualizarDificultad($_SESSION["IdPregunta"]);
             $this->juegoModel->actualizarDificultadUsuario($_SESSION["usuario"]);
-            $datos["check"] = "Respuesta incorrecta";
+            if ($id == "SI") {
+                $datos["check"] = "Se acabó el tiempo";
+            } else {
+                $datos["check"] = "Respuesta incorrecta";
+            }
         }
         $this->renderer->render("partida",$datos);
     }
