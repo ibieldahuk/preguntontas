@@ -6,19 +6,56 @@
 <div class="container mt-5">
     <h1 class="mb-4 text-center">Ranking</h1>
 
-    <div class="row">
-        <div class="col-md-12">
-            {{#rank}}
-                <div class="card mb-4 bg-primary text-white d-flex">
-                    <div class="card-body d-inline-flex justify-content-around" id="ranking-conteiner">
-                        <h5 class="card-title mb-2">{{usuario}}</h5>
-                        <p class="card-text mb-2">Puesto: {{ranking}}</p>
-                        <p class="card-text mb-2">Record: {{record}}</p>
-                        <a href="/user/perfil/usuario={{usuario}}" class="btn btn-light">Ver perfil</a>
-                    </div>
-                </div>
-            {{/rank}}
+    <main class="row d-flex flex-column">
+        <!--<a class="btn-11" href="/lobby">Volver</a>-->
+        <div class="table-responsive d-flex flex-column">
+            <table id="rankingTable" class="table-borderless table-striped col-lg-8 align-self-center">
+                <caption>Ranking de usuarios</caption>
+                <thead class="border-top align-middle text-dark">
+                <tr class="text-center text-bg-dark">
+                    <th class="border-end border-start border-bottom">Ranking</th>
+                    <th class="border-end border-start border-bottom">Foto</th>
+                    <th class="border-end border-start border-bottom">Puntos</th>
+                </tr>
+                </thead>
+                <tbody id="rankingBody" class="align-middle border-bottom">
+                </tbody>
+            </table>
         </div>
-    </div>
+    </main>
+    <script type="text/javascript">
+
+        function cargarRanking() {
+            let xmlhttp = new XMLHttpRequest();
+
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState === 4 && this.status === 200) {
+                    let data = JSON.parse(this.responseText);
+                    actualizarTablaRanking(data.usuarios);
+                }
+            }
+            xmlhttp.open("GET", "/juego/traerRanking", true);
+            xmlhttp.send();
+        }
+
+        function actualizarTablaRanking(usuarios) {
+            let tablaBody = document.getElementById("rankingBody");
+            usuarios.forEach(function (usuario) {
+                let fila = document.createElement("tr");
+                fila.className = "text-center";
+                fila.innerHTML = `
+    <td class="border-end border-start fw-bolder">
+        <a class="text-decoration-none text-uppercase" href="/user/perfil/usuario=${usuario.nombre}">${usuario.nombre}</a>
+    </td>
+    <td class="border-end">
+        <img src="/${usuario.fotoPerfil}" alt="${usuario.nombre}" class="img-fluid" width="100px">
+    </td>
+    <td class="border-end ">${usuario.puntosTotales}</td>`;
+                tablaBody.appendChild(fila);
+            });
+        }
+        cargarRanking();
+    </script>
+    <script src="../public/js/resize_image.js"></script>
 
 </div>

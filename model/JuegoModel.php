@@ -285,4 +285,8 @@ class JuegoModel
         $sql = "SELECT categoria FROM `preguntas` where ID = '$id'";
         return $this->database->query($sql);
     }
+    public function allUsers(){
+        $sql = "Select * from Usuario where nombre not in ('admin','editor') order by puntosTotales desc";
+        return $this->database->query($sql);
+    }
 }
