@@ -33,7 +33,9 @@ class JuegoController
         $this->juegoModel->contarPregunta($_SESSION["IdPregunta"]);
         $this->juegoModel->contarPreguntaUsuario($_SESSION["usuario"]);
         $_SESSION["respuestas"] = $this->juegoModel->elegirRespuestas($_SESSION["IdPregunta"]);
+        $categoria = $this->juegoModel->obtenerCategoria($_SESSION["IdPregunta"]);
 
+        $datos["categoria"] = $categoria;
         $datos["racha"] = $_SESSION["RACHA"];
         $datos["idPregunta"] = $_SESSION["IdPregunta"];
         $datos["pregunta"] = $_SESSION["pregunta"];
@@ -96,4 +98,5 @@ class JuegoController
         $this->juegoModel->sugerirPregunta($pregunta, $respuesta, $opcion1, $opcion2, $opcion3, $categoria);
         header("location:/user/home");
     }
+
 }

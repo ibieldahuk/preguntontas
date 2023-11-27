@@ -280,4 +280,9 @@ class JuegoModel
         $sql = "UPDATE usuario SET qtyPartidas = qtyPartidas + 1 WHERE usuario = '$usuario'";
         $this->database->execute($sql);
     }
+
+    public function obtenerCategoria($id){
+        $sql = "SELECT categoria FROM `preguntas` where ID = '$id'";
+        return $this->database->query($sql);
+    }
 }

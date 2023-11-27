@@ -1,8 +1,4 @@
 <style>
-    .fondo{
-        background-size: 100%;
-    }
-
     a{
         text-decoration: none;
     }
@@ -12,43 +8,47 @@
         padding: 5px;
         margin: 10px;
     }
-    .opciones{
-        background-color: rgba(255,255,255,1);
-        border-radius: 10px;
-        font-size: 20px;
-        text-align: center;
-        margin-top: 10px;
+    .Entretenimiento {
+        background-color: #bd83b8;
     }
-    .opciones:hover{
-        background-color: rgba(0,0,0,0.5);
-        transition: 0.2s;
-        box-shadow: 1px 1px 3px black;
-        color: white;
+
+    .Deporte {
+        background-color: #226782;
+    }
+
+    .Naturaleza {
+        background-color: #46a146;
+    }
+    .Geografia{
+        background-color: #4c967e;
+    }
+    .mt-5 {
+        margin-top: 9rem!important;
     }
 </style>
 
-<body>
+<body {{#categoria}}class="{{categoria}}"{{/categoria}}>
 <div class="container mt-5">
-    <h1 class="text-center">Preguntontas</h1>
-    <div class="card text-dark bg-light mx-auto" style="max-width: 800px; border-radius: 20px;">
+    <h1 class="text-center mt-5">Preguntontas</h1>
+    <div class="card text-dark bg-light mx-auto mt-4" style="max-width: 800px; border-radius: 20px;">
         {{#pregunta}}
             <div class="card-body">
                 <h2 class="card-title">{{Pregunta}}</h2>
             </div>
         {{/pregunta}}
         {{#respuestas}}
-            <a href="/juego/respuesta/id={{opcioncorrecta}}" class="list-group-item list-group-item-action opciones">
+            <a href="/juego/respuesta/id={{opcioncorrecta}}" class="list-group-item list-group-item-action opciones text-center bg-grey">
             {{opcion}}
             </a>
         {{/respuestas}}
         {{#check}}
-            <div class="card-body">
+            <div class="card-body text-center">
                 {{check}}
                 <h2 class="card-text"><a href="/juego/partida" class="btn btn-primary">Nueva partida</a></h2>
             </div>
         {{/check}}
         {{#racha}}
-            <div class="card-body">
+            <div class="card-body text-center">
                 <p class="card-text">Tu racha es de: {{racha}}</p>
             </div>
         {{/racha}}
@@ -62,4 +62,6 @@
             </div>
         {{/idPregunta}}
     </div>
+</div>
+
 </body>
