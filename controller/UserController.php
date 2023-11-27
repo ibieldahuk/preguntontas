@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-
+include_once("third-party/phpqrcode/qrlib.php");
 require 'third-party/PHPMailer-master/src/Exception.php';
 require 'third-party/PHPMailer-master/src/PHPMailer.php';
 require 'third-party/PHPMailer-master/src/SMTP.php';
@@ -98,6 +98,12 @@ class UserController {
         $usuario=$_GET["usuario"];
         $data["perfil"]=$this->userModel->perfil($usuario);
         Logger::info($data["perfil"]);
+
+        $imgQR = "localhost/user/perfil/usuario=".$usuario;
+        $carpeta_destino = "public/images/profile_qrs/";
+
+        QRcode::png($imgQR,$carpeta_destino.$usuario."_qr.png",QR_ECLEVEL_L,4);
+
         $this->renderer->render("perfil",$data);
     }
 

@@ -68,6 +68,7 @@ class JuegoController
         $this->renderer->render("partida",$datos);
     }
 
+    /*
     public function reportarPregunta() {
         $id = $_GET['id'];
         $this->juegoModel->reportarPregunta($id);
@@ -79,6 +80,25 @@ class JuegoController
         $datos["pregunta"] = $_SESSION["pregunta"];
         $datos["respuestas"] = $_SESSION["respuestas"];
         $this->renderer->render("partida",$datos);
+    }
+    */
+
+    public function reportarPregunta()
+    {
+        $json_data = file_get_contents("php://input");
+        $data = json_decode($json_data);
+
+        if ($data && isset($data->id_pregunta)) {
+            $idPregunta = $data->id_pregunta;
+
+            $this->juegoModel->reportarPregunta($idPregunta);
+
+            $response = ["success" => true, "message" => "Pregunta reportada correctamente"];
+            echo json_encode($response);
+        } else {
+            $response = ["success" => false, "message" => "Error"];
+            echo json_encode($response);
+        }
     }
 
     public function sugerir(){
