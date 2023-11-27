@@ -27,6 +27,9 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `preguntas`
 --
 
+CREATE SCHEMA IF NOT EXISTS preguntonta;
+USE preguntonta;
+
 CREATE TABLE `preguntas` (
   `ID` int(2) NOT NULL,
   `pregunta` varchar(100) DEFAULT NULL,

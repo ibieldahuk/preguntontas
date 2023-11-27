@@ -63,10 +63,12 @@
     {{#perfil}}
         <div class="row">
             <div class="col-md-6">
+                    <img src="/{{fotoPerfil}}" height="200px">
                 <ol class="list-unstyled">
                     <li class="mb-3"><h2>Usuario: {{usuario}}</h2></li>
                     <li class="mb-3"><h3>Puntaje máximo: {{record}}</h3></li>
                     <li class="mb-3"><h3>Puntos totales: {{puntosTotales}}</h3></li>
+                    <img class="img-fluid" src="/public/images/profile_qrs/{{usuario}}_qr.png" alt="CódigoQR">
                 </ol>
             </div>
             <div class="col-md-6">
