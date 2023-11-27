@@ -1,0 +1,58 @@
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+}
+.opciones{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.opciones:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+    box-shadow: 1px 1px 3px black;
+    color: white;
+}
+.Entretenimiento {
+    background-color: #bd83b8;
+}
+
+.Deporte {
+    background-color: #226782;
+}
+
+.Naturaleza {
+    background-color: #46a146;
+}
+.Geografia{
+    background-color: #4c967e;
+}
+.mt-5 {
+    margin-top: 9rem!important;
+}
+body{
+    margin-top: 100px;
+}
+#visual-timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#timer-wrapper{
+    background-color: #34495e;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+#time{
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+}
