@@ -55,7 +55,7 @@ class JuegoController
 
         if($id==NULL){
             $datos["check"] = "Contactar con el desarrollador";
-        }else if($id=="SI" && $tiempo < 10){
+        }else if($id=="SI" && $tiempo < 15){
             $_SESSION["RACHA"]++;
             $this->juegoModel->contarCorrecta($_SESSION["IdPregunta"]);
             $this->juegoModel->actualizarDificultad($_SESSION["IdPregunta"]);
